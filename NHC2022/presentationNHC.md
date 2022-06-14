@@ -25,7 +25,7 @@ Nobutake Kamiya (University of Zurich)
 
 # Omeka S - Example usage for Judith's project
 
-- Chose modules 
+- Select modules 
 - Consider the data model
 
 ---
