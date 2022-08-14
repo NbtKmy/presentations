@@ -58,7 +58,7 @@ Die gesamten Codes sind [hier](https://github.com/NbtKmy/analyze_tweets/blob/mai
 
 ---
 ## Python-Code : Query 1
-Datum und Uhrzeit von Japanischer Zeit zu UTC
+Datum und Uhrzeit von Japanischer Zeit zu UTC (koordinierte Weltzeit)
 ```Python
 jst_st = datetime.datetime(2021, 3, 1, 0, 0, 0, 0, datetime.timezone(timedelta(hours=+9)))
 jst_et = datetime.datetime(2021, 4, 1, 0, 0, 0, 0, datetime.timezone(timedelta(hours=+9)))
@@ -92,7 +92,7 @@ Beispiel: [Ein Tweet von der IOC (japanisch)](https://twitter.com/gorin/status/1
 ## Python-Code : Data cleaning
 ```Python
 # User-Name (Erwähungen), URL, Hash-tags und Zeilenumbrüche aus dem Tweets entfernen
-    tw_text = re.sub(r'@\w+','', i['text'])
+    tw_text = re.sub(r'@\w+','', ['text'])
     tw_text = re.sub(r'(http|https)://[0-9a-zA-Z\./]+','', tw_text)
     tw_text = re.sub(r'#.+?(\s|$)', '', tw_text)
     tw_text = re.sub(r'\n','', tw_text)

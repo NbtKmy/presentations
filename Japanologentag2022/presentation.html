@@ -94,7 +94,7 @@
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="9" data-class="lead invert" data-paginate="true" data-header="Japanologentag 2022, Sektion Information- und Ressourcenwissenschaften" data-footer="![](https://i.creativecommons.org/l/by/4.0/88x31.png) Nobutake Kamiya" data-theme="gaia" class="lead invert" data-marpit-pagination="9" data-marpit-pagination-total="31" style="--class:lead invert;--paginate:true;--header:Japanologentag 2022, Sektion Information- und Ressourcenwissenschaften;--footer:![](https://i.creativecommons.org/l/by/4.0/88x31.png) Nobutake Kamiya;--theme:gaia;">
 <header>Japanologentag 2022, Sektion Information- und Ressourcenwissenschaften</header>
 <h2>Python-Code : Query 1</h2>
-<p>Datum und Uhrzeit von Japanischer Zeit zu UTC</p>
+<p>Datum und Uhrzeit von Japanischer Zeit zu UTC (koordinierte Weltzeit)</p>
 <pre><code class="language-Python"><svg data-marp-fitting="svg" data-marp-fitting-code><foreignObject><span data-marp-fitting-svg-content><span data-marp-fitting-svg-content-wrap>jst_st = datetime.datetime(<span class="hljs-number">2021</span>, <span class="hljs-number">3</span>, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, datetime.timezone(timedelta(hours=+<span class="hljs-number">9</span>)))
 jst_et = datetime.datetime(<span class="hljs-number">2021</span>, <span class="hljs-number">4</span>, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, datetime.timezone(timedelta(hours=+<span class="hljs-number">9</span>)))
 
@@ -129,7 +129,7 @@ Beispiel: <a href="https://twitter.com/gorin/status/1554965339787579392">Ein Twe
 <header>Japanologentag 2022, Sektion Information- und Ressourcenwissenschaften</header>
 <h2>Python-Code : Data cleaning</h2>
 <pre><code class="language-Python"><svg data-marp-fitting="svg" data-marp-fitting-code><foreignObject><span data-marp-fitting-svg-content><span data-marp-fitting-svg-content-wrap><span class="hljs-comment"># User-Name (Erwähungen), URL, Hash-tags und Zeilenumbrüche aus dem Tweets entfernen</span>
-    tw_text = re.sub(<span class="hljs-string">r&#x27;@\w+&#x27;</span>,<span class="hljs-string">&#x27;&#x27;</span>, i[<span class="hljs-string">&#x27;text&#x27;</span>])
+    tw_text = re.sub(<span class="hljs-string">r&#x27;@\w+&#x27;</span>,<span class="hljs-string">&#x27;&#x27;</span>, [<span class="hljs-string">&#x27;text&#x27;</span>])
     tw_text = re.sub(<span class="hljs-string">r&#x27;(http|https)://[0-9a-zA-Z\./]+&#x27;</span>,<span class="hljs-string">&#x27;&#x27;</span>, tw_text)
     tw_text = re.sub(<span class="hljs-string">r&#x27;#.+?(\s|$)&#x27;</span>, <span class="hljs-string">&#x27;&#x27;</span>, tw_text)
     tw_text = re.sub(<span class="hljs-string">r&#x27;\n&#x27;</span>,<span class="hljs-string">&#x27;&#x27;</span>, tw_text)
