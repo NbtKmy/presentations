@@ -9,5 +9,5 @@ Link to Presentation: https://nbtkmy.github.io/presentations/NHC2022/presentatio
 
 ## Japanologentag 2022 
 
-Link to Presentation: coming soon
+Link to Presentation: https://nbtkmy.github.io/presentations/Japanologentag2022/presentation.html
 
