@@ -16,20 +16,20 @@ Nobutake Kamiya (Universität Zürich, Universitätsbibliothek)
 ---
 
 # Was ich hier anbiete:
-- Wie man Twitter-Daten sammelt (Python)
-- Einführung der Tools für Datenanalyse (Elasticsearch und weitere Plugins)
-- Denkanstoß für Handhabung der Daten / Datenmanagement
+- Wie Twitter-Daten gesammelt werden (Python)
+- Einführung der Tools zur Datenanalyse (Elasticsearch)
+- Denkanstoß zur Handhabung der Daten / Datenmanagement
 
 ---
 
-# Das Ziel ist [hier](http://localhost:5601) 
+# [Hier](http://localhost:5601) geht's zum Ziel
 Der Link führt zu meinem lokalen Server. Deshalb funktioniert er nur von meinem PC...
 
 ---
 
 # Was ich hier **NICHT** anbiete:
 - Eine wissenschaftliche Erkenntnis
-- Fachspezifische Forschungsmethode
+- Eine fachspezifische Forschungsmethode
 
 ---
 
@@ -37,12 +37,13 @@ Der Link führt zu meinem lokalen Server. Deshalb funktioniert er nur von meinem
 
 ---
 
-## Tweets sammeln : Methode
+## Tweets sammeln: Methode
 - Twitter API v2 - Academic Research
 - Python
 
 ---
-## Übersicht von [Twitter API](https://developer.twitter.com/en/docs/twitter-api))
+
+## Übersicht [Twitter API](https://developer.twitter.com/en/docs/twitter-api)
 |Essential              | Elevated              | Academic Research                         |
 |-----------------------|-----------------------|-------------------------------------------|
 |500'000 tweets / Monat | 2 Mio. Tweets / Monat | 10 Mio. Tweets / Monat                    |
@@ -52,13 +53,15 @@ Der Link führt zu meinem lokalen Server. Deshalb funktioniert er nur von meinem
  
 
 ---
-## Python-Code
+
+## Python
 Die gesamten Codes sind [hier](https://github.com/NbtKmy/analyze_tweets/blob/main/searchTweets.py) zu finden.
 
 
 ---
-## Python-Code : Query 1
-Datum und Uhrzeit von Japanischer Zeit zu UTC (koordinierte Weltzeit)
+
+## Python: Query 1
+Datum und Uhrzeit Japanischer Zeit auf UTC (koordinierte Weltzeit)
 ```Python
 jst_st = datetime.datetime(2021, 3, 1, 0, 0, 0, 0, datetime.timezone(timedelta(hours=+9)))
 jst_et = datetime.datetime(2021, 4, 1, 0, 0, 0, 0, datetime.timezone(timedelta(hours=+9)))
@@ -70,7 +73,7 @@ utc_et = utc_et.isoformat()
 ```
 
 ---
-## Python-Code : Query 2
+## Python: Query 2
 Suchbedingungen
 ```Python
 query_params = {'query': '(オリンピック lang:ja -is:retweet) OR (五輪 lang:ja -is:retweet)',
@@ -82,14 +85,14 @@ query_params = {'query': '(オリンピック lang:ja -is:retweet) OR (五輪 la
 Weitere Regeln siehe [hier](https://developer.twitter.com/en/docs/twitter-api/tweets/filtered-stream/integrate/build-a-rule#order-of-operations)
 
 ---
-## Data cleaning
+## Python: Data cleaning
 
 ![bg 70% right](./img/olympicSample.png)
-Beispiel: [Ein Tweet von der IOC (japanisch)](https://twitter.com/gorin/status/1554965339787579392)
+Beispiel: [Ein Tweet des IOCs (japanisch)](https://twitter.com/gorin/status/1554965339787579392)
 
 ---
 
-## Python-Code : Data cleaning
+## Python: Data cleaning
 ```Python
 # User-Name (Erwähungen), URL, Hash-tags und Zeilenumbrüche aus dem Tweets entfernen
     tw_text = re.sub(r'@\w+','', ['text'])
@@ -104,16 +107,16 @@ Beispiel: [Ein Tweet von der IOC (japanisch)](https://twitter.com/gorin/status/1
 
 ---
 
-## Besonderheiten bei der Twitter-Daten
-- "Academic researchers are permitted to distribute an unlimited number of Tweet IDs and/or User IDs [...]", aber mehr nicht. [Developer terms (unter "content redistribution")](https://developer.twitter.com/en/developer-terms/policy)
-- Tweets können gelöscht werden!
+## Besonderheiten von der Twitter-Daten
+- "Academic researchers are permitted to distribute an unlimited number of Tweet IDs and/or User IDs [...]", aber mehr nicht [Developer terms (unter "content redistribution")](https://developer.twitter.com/en/developer-terms/policy)
+- Tweets können gelöscht/geändert werden!
 
 ---
 
 ## Tweets sammeln - Zusammenfassung
 - Nutzungsbedingen der Daten kennenlernen!
-- Codes für die Query und für Data cleaning ebenso publizieren
-- Das Datum der Ausführung dokumentieren
+- Codes für Query und Data cleaning publizieren
+- Datum der Ausführung dokumentieren
 
 ---
 
@@ -124,7 +127,7 @@ Beispiel: [Ein Tweet von der IOC (japanisch)](https://twitter.com/gorin/status/1
 ## Was ist Elasticsearch?
 - Eine Suchmachine basierend auf Lucene
 - Nutzung der Standarddistribution ist kostenlos
-- Verwendet auch in [次世代デジタルライブラリー](https://github.com/ndl-lab/tugidigi-web) von der NDL
+- Auch in [次世代デジタルライブラリー](https://github.com/ndl-lab/tugidigi-web) von der NDL genutzt
   
 
 ---
@@ -230,12 +233,12 @@ Der "Keyword"-Tokenizer gibt den Satz so zurück (s. [hier](https://www.elastic.
 
 ## Token_filter-Einstellung 2
 
-Einige Token_filter von Kuromoji sind verwendet
+Einige Token_filter von Kuromoji werden verwendet
 
 - kuromoji_baseform
 - kuromoji_part_of_speech
 
-Zusätzlich ist noch "synonym_filter" eingesetzt.
+Zusätzlich wird der "synonym_filter" eingesetzt.
 - "オリンピック" und "五輪"
 
 ---
@@ -254,23 +257,23 @@ Zusätzlich ist noch "synonym_filter" eingesetzt.
 
 ## Elasticserach - Zusammenfassung
 
-- Mit ES kann man die große Datenmenge behandeln und analysieren
-  - Durch API kann man weiter die Daten verarbeiten z.B. für Netzwerkanalyse
+- Mit ES können die große Datenmengen behandeln und analysieren werden
+  - Mit API können die Daten weiter verarbeitet werden, z.B. für Netzwerkanalyse
   - [Kibana](https://www.elastic.co/de/kibana/) (ein Plugin von ES) erlaubt eine einfache GUI-Verarbeitung
-- Hier sollte man auch die Konfigulation bekannt machen
+- Die Konfiguration sollte bekannt gemacht werden
 
 ---
 
 # Denkanstoß - 1
-- Behandlung der großen Menge von japanischen Texten ist durchaus möglich
+- Bearbeitung großer Mengen von japanischen Texten ist durchaus möglich
 - Für die wissenschaftlichen Kommunikation ist die Nachvollziehbarkeit wichtig
-- Open Data-Gedanken ist deshalb sehr wichtig 
+- Open-Data-Gedanken werden sehr wichtig 
 
 ---
 
 # Denkanstoß - 2
-- Falls die Rohdaten nicht publiziert werden kann, sollten mindestens die Codes für Datensammlung und Verarbeitung publiziert werden
-- Für die wiss. Bibliothekare wäre interessant, die Information über anwendbaren Datenquellen und derer Nutzungsbedingungen zu wissen/vermitteln
+- Falls die Rohdaten nicht publiziert werden können, sollten mindestens die Codes für Datensammlung und Verarbeitung publiziert werden
+- Für Bibliothekare ist es interessant, Information über anwendbaren Datenquellen und deren Nutzungsbedingungen zu wissen/vermitteln
 
 ---
 
