@@ -18,7 +18,7 @@ Nobutake Kamiya (Universität Zürich, Universitätsbibliothek)
 # Was ich hier anbiete:
 - Wie man Twitter-Daten sammelt (Python)
 - Einführung der Tools für Datenanalyse (Elasticsearch und weitere Plugins)
-- Denkanstoss für Handhabung der Daten / Datenmanagement
+- Denkanstoß für Handhabung der Daten / Datenmanagement
 
 ---
 
@@ -53,7 +53,7 @@ Der Link führt zu meinem lokalen Server. Deshalb funktioniert er nur von meinem
 
 ---
 ## Python-Code
-Die gesamte Code ist [hier](https://github.com/NbtKmy/analyze_tweets/blob/main/searchTweets.py) zu finden.
+Die gesamten Codes sind [hier](https://github.com/NbtKmy/analyze_tweets/blob/main/searchTweets.py) zu finden.
 
 
 ---
@@ -110,46 +110,51 @@ Beispiel: [Ein Tweet von der IOC (japanisch)](https://twitter.com/gorin/status/1
 
 ---
 
-## Nachvollziehbarkeit?
-- Code für die Query und für Data cleaning ebenso publizieren
-- Datum der Ausführung dokumentieren
+## Tweets sammeln - Zusammenfassung
+- Nutzungsbedingen der Daten kennenlernen!
+- Codes für die Query und für Data cleaning ebenso publizieren
+- Das Datum der Ausführung dokumentieren
 
 ---
 
-# Elasticsearch
+# [Elasticsearch (ES)](https://www.elastic.co/)
+
+---
+
+## Was ist Elasticsearch?
+- Eine Suchmachine basierend auf Lucene
+- Nutzung der Standarddistribution ist kostenlos
+- Verwendet auch in [次世代デジタルライブラリー](https://github.com/ndl-lab/tugidigi-web) von der NDL
+  
 
 ---
 
 ## Plugins für Japanisch
-- Kuromoji
-- ICU
-- Sudachi 
+- [Kuromoji](https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-kuromoji.html)
+- [ICU (International Components for Unicode)](https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-icu.html)
+- [Sudachi (die neueste Version für ES 5.6?)](https://github.com/WorksApplications/elasticsearch-sudachi) 
 
-In diesem Beispiel werden Kuromoji und ICU für Analyzer verwendet
+In diesem Beispiel werden **Kuromoji** und **ICU** für Analyzer verwendet
 
 ---
 
 ## Einstellung des Analyzers
 - Konfiguration kann in JSON-Format geschrieben werden
-- Charfilter (Normalisierung der Schriftzeichen, fakultativ)
+- Char_filter (Normalisierung der Schriftzeichen, fakultativ)
 - Tokenizer (Worttrennung [z.B. N-gram], notwendig, nur ein Tokenizer anwendbar)
-- Token filter (Wörter [z.B. Stopwörter] werden nach bestimmten Regeln gefiltert, fakultativ)
+- Token_filter (Wörter [z.B. Stopwörter] werden nach bestimmten Regeln gefiltert, fakultativ)
 
 
 ---
 
 ## Einstellung mit dem Beispielsatz
 
-```JSON
-{
-    "analyzer": "my_kuromoji_analyzer",
-      "text": "そのオリンピック選手は身長１９６㌢という長身だった。人々はおどろいた。二〇〇〇人がオリンピックを観戦しながらコンピューターをつかっていた"
-}
-```
+"そのオリンピック選手は身長１９６㌢という長身だった。人々はおどろいた。二〇〇〇人がオリンピックを観戦しながらコンピューターをつかっていた"
+
 
 ---
 
-## Charfilter - Einstellung
+## Char_filter - Einstellung
 
 ```JSON
 {
@@ -166,6 +171,114 @@ In diesem Beispiel werden Kuromoji und ICU für Analyzer verwendet
     }
 }
 ```
+Der "Keyword"-Tokenizer gibt den Satz so zurück (s. [hier](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-keyword-tokenizer.html))
+
+
+---
+
+## Ergebnis
+
+そのオリンピック選手は身長**196センチ**という長身だった。**人人**はおどろいた。二〇〇〇人がオリンピックを観戦しながらコンピューターをつかっていた
+
+---
+
+## Tokenizer-Einstellung
+
+```JSON
+{
+    "settings": {
+        "analysis": {
+            "analyzer": {
+                "my_kuromoji_analyzer": {
+                    "type": "custom",
+                    "char_filter" : ["icu_normalizer", "kuromoji_iteration_mark"],
+                    "tokenizer": "kuromoji_tokenizer"
+                }
+            }
+        }
+    }
+}
+```
+
+---
+
+## Ergebnis
+
+[Ergebnis in JSON-Format](https://github.com/NbtKmy/analyze_tweets/blob/main/analyzer/test_result2.json)
+
+---
+
+## Token_filter-Einstellung 1
+
+```JSON
+[...]
+ "filter": ["kuromoji_baseform", "kuromoji_part_of_speech", "kuromoji_stemmer", "ja_stop", "kuromoji_number", "synonym_filter"]
+                }
+            },
+            "filter": {
+                "synonym_filter": {
+                    "type": "synonym",
+                    "synonyms": ["オリンピック,五輪"]
+                }
+            }
+        }
+    }
+}
+```
+
+---
+
+## Token_filter-Einstellung 2
+
+Einige Token_filter von Kuromoji sind verwendet
+
+- kuromoji_baseform
+- kuromoji_part_of_speech
+
+Zusätzlich ist noch "synonym_filter" eingesetzt.
+- "オリンピック" und "五輪"
+
+---
+
+## Ergebnis
+
+[Hier](https://github.com/NbtKmy/analyze_tweets/blob/main/analyzer/test_result3.json)
+
+---
+
+## Die endgültige Einstellung 
+
+...Falls man sich dafür interessiert... [Hier](https://github.com/NbtKmy/analyze_tweets/blob/main/analyzer/my_kuromoji_analyzer4.json)
+
+---
+
+## Elasticserach - Zusammenfassung
+
+- Mit ES kann man die große Datenmenge behandeln und analysieren
+  - Durch API kann man weiter die Daten verarbeiten z.B. für Netzwerkanalyse
+  - [Kibana](https://www.elastic.co/de/kibana/) (ein Plugin von ES) erlaubt eine einfache GUI-Verarbeitung
+- Hier sollte man auch die Konfigulation bekannt machen
+
+---
+
+# Denkanstoß - 1
+- Behandlung der großen Menge von japanischen Texten ist durchaus möglich
+- Für die wissenschaftlichen Kommunikation ist die Nachvollziehbarkeit wichtig
+- Open Data-Gedanken ist deshalb sehr wichtig 
+
+---
+
+# Denkanstoß - 2
+- Falls die Rohdaten nicht publiziert werden kann, sollten mindestens die Codes für Datensammlung und Verarbeitung publiziert werden
+- Für die wiss. Bibliothekare wäre interessant, die Information über anwendbaren Datenquellen und derer Nutzungsbedingungen zu wissen/vermitteln
+
+---
+
+# Vielen Dank!
+
+
+
+
 
 
 
