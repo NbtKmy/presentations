@@ -24,7 +24,7 @@ header: Präsi für International Games Month (IGM) für LL
 
 # Stand der Dinge bei uns...
 - Kernprojektteam ist bereits gebildet
-- UB-Leitung wird sich die ganze UB dafür anmelden
+- UB-Leitung wird sich als UB Zürich dafür anmelden
 
 ---
 
