@@ -16,7 +16,7 @@ header: Präsi für International Games Month (IGM) für Kernteam
 ---
 
 # Was ist IGM?
-- International Games Month (IGM) is an annual celebration of games, play, libraries and learning that any library in the world can join, and costs absolutely nothing to register for!
+- [International Games Month (IGM)](https://games.ala.org/international-games-month/) is an annual celebration of games, play, libraries and learning that any library in the world can join, and costs absolutely nothing to register for!
 - International Games Month is an initiative run by volunteers from around the world to reconnect communities through their libraries around the educational, recreational, and social value of all types of games
 - International Games Month is __all of November__
 
