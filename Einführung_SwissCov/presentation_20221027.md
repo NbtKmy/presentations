@@ -51,7 +51,7 @@ header: Recherchekurs Japanologie
 
 ## [Fachinformationsseite](https://www.ub.uzh.ch/de/unterstuetzung-erhalten/fachliche-unterstuetzung/japanologie.html)
 - Ausgewählte weiterführende Datenbanken
-- Links zu Fernleihe
+- Links zu Fernleihe und Kopiebestellungen usw.
 - Liaison Librarian (mich!!!) buchen!!!
 
 ---
