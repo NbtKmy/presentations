@@ -28,6 +28,9 @@ section h1 {
   font-size: 2.65rem;
   color: white;
 }
+section h2 {
+    color: var(--theme-blue);
+}
 .text_white {
     color: white
 }
@@ -50,5 +53,7 @@ Nobutake Kamiya</div>
 <img src="./img/header_links.png" height=50%/>
 <img src="./img/header_rechts.svg" class="img_rechts"/>
 </header>
+
+## bla
 
 ---
