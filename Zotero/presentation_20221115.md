@@ -18,7 +18,16 @@ footer: "15. November 2022 / Nobutake Kamiya: Zotero (Tools für das wissenschaf
 }
 header {
   width: 100%;
-  height: 100px;
+  height: 80px;
+  position: absolute;
+  left: -1px;
+}
+.header_2nd {
+  border-bottom: 2px solid var(--theme-grey);
+}
+.img_links {
+  position: relative;
+  left: 20px;
 }
 .img_rechts {
   position: relative;
@@ -37,23 +46,28 @@ section h2 {
 
 </style>
 <header>
-<img src="./img/header_links.png" height=50%/>
-<img src="./img/header_rechts.svg" class="img_rechts"/>
+<img src="../uni_img/header_links.png" height=70% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
 # Zotero-Einführung
 <div class="text_white">Tools für das wissenschaftliche Informationsmanagement<br>
 Nobutake Kamiya</div>
 
-![bg 100%](./img/hintergrund_1page.jpg)
+![bg 100%](../uni_img/hintergrund_1page.jpg)
 
 ---
 
-<header>
-<img src="./img/header_links.png" height=50%/>
-<img src="./img/header_rechts.svg" class="img_rechts"/>
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=70% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
 ## bla
 
 ---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=70% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
