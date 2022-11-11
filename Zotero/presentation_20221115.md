@@ -49,6 +49,8 @@ section h2 {
     width: 100vw;
     height: 520px;
     background-color: var(--theme-grey);
+    text-indent: 100px;
+    line-height: 200px;
 }
 
 </style>
