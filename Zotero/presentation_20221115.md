@@ -31,7 +31,7 @@ header {
 }
 .img_rechts {
   position: relative;
-  left: 850px;
+  left: 800px;
 }
 section h1 {
   font-size: 2.65rem;
@@ -43,10 +43,17 @@ section h2 {
 .text_white {
     color: white
 }
+.bg_grey {
+    position: relative;
+    left: -80px;
+    width: 100vw;
+    height: 520px;
+    background-color: var(--theme-grey);
+}
 
 </style>
 <header>
-<img src="../uni_img/header_links.png" height=70% class="img_links"/>
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
@@ -59,15 +66,36 @@ Nobutake Kamiya</div>
 ---
 
 <header class="header_2nd">
-<img src="../uni_img/header_links.png" height=70% class="img_links"/>
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-## bla
+## Was ist Zotero?
+- Ein Literaturverwaltungssystem wie Endnote oder Citavi
+- Ein Open Source Software ([Quellcode in Github](https://github.com/zotero/zotero))
 
 ---
 
 <header class="header_2nd">
-<img src="../uni_img/header_links.png" height=70% class="img_links"/>
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
+
+## Heute verwende ich ...
+- Zotero-Desktop App (Stand alone) und [Zotero Connector](https://www.zotero.org/download/connectors)
+- Ein Browser 
+- 
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+<div class="bg_grey text_white">
+Vorführung
+</div>
+
+---
+
