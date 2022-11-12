@@ -41,12 +41,13 @@ section h2 {
     color: var(--theme-blue);
 }
 .text_white {
-    color: white
+    font-size: 1.65rem;
+    color: white;
 }
 .bg_grey {
     position: relative;
     left: -80px;
-    width: 100vw;
+    width: 1600px;
     height: 520px;
     background-color: var(--theme-grey);
     text-indent: 100px;
@@ -72,8 +73,18 @@ Nobutake Kamiya</div>
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
+![width:600px](./zotero-logo.svg)
+[Link zur offiziellen Seite](https://www.zotero.org/)
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
 ## Was ist Zotero?
-- Ein Literaturverwaltungssystem wie Endnote oder Citavi
+- Ein Literaturverwaltungssystem wie [Mendeley](https://www.mendeley.com/), [Endnote](https://endnote.com/) oder [Citavi](https://www.citavi.com/de/download)
 - Ein Open Source Software ([Quellcode in Github](https://github.com/zotero/zotero))
 
 ---
@@ -83,12 +94,62 @@ Nobutake Kamiya</div>
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-## Heute verwende ich ...
-- Zotero-Desktop App (Stand alone) und [Zotero Connector](https://www.zotero.org/download/connectors)
-- Ein Browser 
-- 
+## Was kann man mit Zotero machen? I (= was wir heute machen)
+- Zitat einfach machen
+- Bibliografie erstellen
+- Literatur importieren & exportieren, mit Tags versehen
+- Literaturliste über Cloud synkronisieren, mit anderen Leuten teilen und publizieren
 
 ---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Was kann man mit Zotero machen? II (= was wir heute __NICHT__ machen)
+- PDFs annotieren (siehe Beschreibung der [neuen Funktionen von Zotero 6](https://www.zotero.org/blog/zotero-6/))
+- Zitierstile editieren (mit [Citation Style Language](https://citationstyles.org/))
+- Weitere [Plugins](https://www.zotero.org/support/plugins) verwenden
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Heute verwenden wir ...
+- [Zotero-Desktop App](https://www.zotero.org/download/)
+- Einen Browser mit [Zotero-Connector](https://www.zotero.org/download/connectors)
+- Einen Zotero-Account (Registration [hier](https://www.zotero.org/user/register))
+
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Konfiguration I
+1. Einen Zotero-Account erstellen
+1. Zotero-App auf dem PC installieren
+1. Zotero-Connector auf dem Browser installieren
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Konfiguration II
+4. Zotero-App mit dem Zotero-Account verbinden ("Einstellung" > "Sync")
+![height:300px](./screenshot1.png)
+
+---
+
 
 <header class="header_2nd">
 <img src="../uni_img/header_links.png" height=80% class="img_links"/>
@@ -98,6 +159,7 @@ Nobutake Kamiya</div>
 <div class="bg_grey text_white">
 Vorführung
 </div>
+
 
 ---
 
