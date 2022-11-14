@@ -97,7 +97,7 @@ Nobutake Kamiya</div>
 ## Was kann man mit Zotero machen? I (= was wir heute machen)
 - Zitat einfach machen
 - Bibliografie erstellen
-- Literatur importieren & exportieren, mit Tags versehen
+- Literatur importieren und mit Tags versehen
 - Literaturliste über Cloud synkronisieren, mit anderen Leuten teilen und publizieren
 
 ---
@@ -157,9 +157,113 @@ Nobutake Kamiya</div>
 </header>
 
 <div class="bg_grey text_white">
-Vorführung
+Vorführung : Importieren
 </div>
 
 
 ---
 
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Importieren vom Browser durch den Zotero-Connector
+![](./illust_import1.jpg)
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+##  Importieren durch einen Identifikator wie ISBN oder DOI
+![](./illust_import2.jpg)
+
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Taggen
+![](./illust_import3.jpg)
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+<div class="bg_grey text_white">
+Vorführung : Zitat und Bibliografie
+</div>
+
+---
+
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Zitat im Text I
+![](./illust_zitat1.jpg)
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Zitat im Text II
+![height:450px](./illust_zitat2.jpg)
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Bibliografie
+
+Im Prinzip ist der Prozess gleich wie bei der Zitationen.
+Man kann mehrere Einträge für die Bibliografie auswählen und "Bibliografie" statt "Zitationen" auswählen
+
+--- 
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+<div class="bg_grey text_white">
+Vorführung : Liste teilen und publizieren
+</div>
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Liste teilen I
+Im Browser ins Zotero einloggen...
+![](./illust_share1.png)
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Liste teilen II
+![](./illust_share2.png)
