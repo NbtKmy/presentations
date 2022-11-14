@@ -85,7 +85,7 @@ Nobutake Kamiya</div>
 
 ## Was ist Zotero?
 - Ein Literaturverwaltungssystem wie [Mendeley](https://www.mendeley.com/), [Endnote](https://endnote.com/) oder [Citavi](https://www.citavi.com/de/download)
-- Ein Open Source Software ([Quellcode in Github](https://github.com/zotero/zotero))
+- Eine Open Source Software ([Quellcode in Github](https://github.com/zotero/zotero))
 
 ---
 
@@ -95,10 +95,10 @@ Nobutake Kamiya</div>
 </header>
 
 ## Was kann man mit Zotero machen? I (= was wir heute machen)
-- Zitat einfach machen
+- Zitat einfach erstellen
 - Bibliografie erstellen
 - Literatur importieren und mit Tags versehen
-- Literaturliste über Cloud synkronisieren, mit anderen Leuten teilen und publizieren
+- Literaturliste über Cloud synchronisieren und mit anderen teilen und publizieren
 
 ---
 
@@ -157,7 +157,7 @@ Nobutake Kamiya</div>
 </header>
 
 <div class="bg_grey text_white">
-Vorführung : Importieren
+Vorführung: Importieren
 </div>
 
 
@@ -168,7 +168,7 @@ Vorführung : Importieren
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-## Importieren vom Browser durch den Zotero-Connector
+## Importieren aus dem Browser mit Zotero-Connector
 ![](./illust_import1.jpg)
 
 ---
@@ -200,7 +200,7 @@ Vorführung : Importieren
 </header>
 
 <div class="bg_grey text_white">
-Vorführung : Zitat und Bibliografie
+Vorführung: Zitat und Bibliografie
 </div>
 
 ---
@@ -233,7 +233,7 @@ Vorführung : Zitat und Bibliografie
 
 ## Bibliografie
 
-Im Prinzip ist der Prozess gleich wie bei der Zitationen.
+Im Prinzip ist der Prozess gleich wie bei Zitationen.
 Man kann mehrere Einträge für die Bibliografie auswählen und "Bibliografie" statt "Zitationen" auswählen
 
 --- 
@@ -244,7 +244,7 @@ Man kann mehrere Einträge für die Bibliografie auswählen und "Bibliografie" s
 </header>
 
 <div class="bg_grey text_white">
-Vorführung : Liste teilen und publizieren
+Vorführung: Liste teilen und publizieren
 </div>
 
 ---
@@ -255,7 +255,7 @@ Vorführung : Liste teilen und publizieren
 </header>
 
 ## Liste teilen I
-Im Browser ins Zotero einloggen...
+Im Browser in Zotero einloggen...
 ![](./illust_share1.png)
 
 ---
@@ -285,7 +285,7 @@ Im Browser ins Zotero einloggen...
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-## Liste teilen IIII
+## Liste teilen IV
 ![height:450px](./illust_share4.png)
 
 ---
@@ -300,7 +300,7 @@ Weil wir jetzt eine "öffentliche" Gruppe erstellt haben,
 ist die Liste für die Öffentlichkeit zugänglich:
 https://www.zotero.org/groups/4855842/testgruppe11/library
 
-Und man kann auch die Metadaten durch API hervorrufen:
+Und man kann auch die Metadaten über eine API hervorrufen:
 https://api.zotero.org/groups/4855842/items?format=json
 
 ---
