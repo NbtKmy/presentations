@@ -266,4 +266,43 @@ Im Browser ins Zotero einloggen...
 </header>
 
 ## Liste teilen II
-![](./illust_share2.png)
+![height:450px](./illust_share2.png)
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Liste teilen III
+![height:450px](./illust_share3.png)
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Liste teilen IIII
+![height:450px](./illust_share4.png)
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Liste publizieren
+Weil wir jetzt eine "öffentliche" Gruppe erstellt haben,
+ist die Liste für die Öffentlichkeit zugänglich:
+https://www.zotero.org/groups/4855842/testgruppe11/library
+
+Und man kann auch die Metadaten durch API hervorrufen:
+https://api.zotero.org/groups/4855842/items?format=json
+
+---
+
+## Vielen Dank!
