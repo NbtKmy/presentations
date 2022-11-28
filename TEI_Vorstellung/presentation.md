@@ -49,7 +49,18 @@ TEI-Daten auf Github-Repo [whitmann-correspondence](https://github.com/whitmanar
 
 ---
 
-# Whitmann-Briefe nach TEI
+# Whitmann-Briefe nach TEI - 1
 Bsp - [bpl.00011.xml](https://github.com/whitmanarchive/whitman-correspondence/blob/dev/source/tei/bpl.00011.xml)
 ![](bsp_wa_1.png)
+
+---
+
+# Whitmann-Briefe nach TEI - 2
+[\<correspDesc\>-Tag](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-correspDesc.html) hinzufügen
+![](./bsp_correspDesc.png)
+
+---
+
+
+
 
