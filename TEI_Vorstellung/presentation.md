@@ -62,7 +62,7 @@ footer: ![](https://i.creativecommons.org/l/by/4.0/88x31.png) Nobutake Kamiya
 # Beispiel 0
 Unterschiedliche Kodierung von "A Midsummer Night’s Dream"
 - Aus [der Sammlung "The Folger Shakespear"](https://shakespeare.folger.edu/downloads/teisimple/a-midsummer-nights-dream_TEIsimple_FolgerShakespeare.xml)
-- Aus [Shakespeare's Plays (TEI Publisher Edition)](https://teipublisher.com/exist/apps/eXide/index.html)
+- Aus [Shakespeare's Plays (TEI Publisher Edition)](https://teipublisher.com/exist/apps/shakespeare-pm/index.html)
 
 Je nach Zweck kann man "einen" Text unterschiedlich kodieren 
 
