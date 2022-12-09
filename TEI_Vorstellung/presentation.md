@@ -24,7 +24,7 @@ footer: ![](https://i.creativecommons.org/l/by/4.0/88x31.png) Nobutake Kamiya
 # TEI ist ...?
 ![bg 30% right](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Text_Encoding_InitiativeTEI_Logo.svg/1024px-Text_Encoding_InitiativeTEI_Logo.svg.png)
 
-- Organisation "Text Encoding Initiative" (Gegründet 1887), seit 2000 "TEI Consortium"
+- Organisation "Text Encoding Initiative" (Gegründet 1987), seit 2000 "TEI Consortium"
 - Dokumentformat / Auszeichungssprache (_markup language_) für div. Texte
 
 ---
