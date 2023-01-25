@@ -88,7 +88,7 @@ section h2 {
 ## Wie können wir es erreichen?
 - Nachhaltigkeit - Definition/Vorstellungen verdeutlichen und vermitteln
 - Pläne für Nachhaltigkeit in die UB-Leitung / UB-Politik hochbringen
-- Kooperieren mit der ganzen UZH und mit den weiteren externen Institutionen, UB Bern, Biblioswiss, UB Freie Univ. Berlin usw.
+- Kooperieren mit der ganzen UZH und mit den weiteren externen Institutionen, UB Bern, Bibliosuisse, UB Freie Univ. Berlin usw.
 
 
 ---
