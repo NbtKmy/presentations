@@ -60,7 +60,7 @@ section h2 {
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-# PDF-Dokumente übersetzen in Zotero
+# PDF-Dokumente OCRisieren 
 <div class="text_white">Tools für das wissenschaftliche Informationsmanagement<br>
 Nobutake Kamiya</div>
 
@@ -107,7 +107,7 @@ Nobutake Kamiya</div>
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-## Was kann man mit Zotero machen? II
+## Was kann man mit Zotero machen? II 
 - PDFs annotieren (siehe Beschreibung der [neuen Funktionen von Zotero 6](https://www.zotero.org/blog/zotero-6/))
 - Zitierstile editieren (mit [Citation Style Language](https://citationstyles.org/))
 - Weitere [Plugins](https://www.zotero.org/support/plugins) verwenden
@@ -120,8 +120,10 @@ Nobutake Kamiya</div>
 </header>
 
 ## Heute machen wir ...
-- Ein Plugin [zotero-pdf-translate](https://github.com/windingwind/zotero-pdf-translate) installieren
-- ...dann [DeepL](https://www.deepl.com/translator) als Übersetzungsprogramm einstellen
+- [Tesseract](https://tesseract-ocr.github.io/tessdoc/Downloads.html) installieren
+- [Poppler (Windows) wegen pdftoppm](https://github.com/oschwartz10612/poppler-windows) installieren
+- Ein Plugin [Zotero OCR](https://github.com/UB-Mannheim/zotero-ocr) installieren
+- Ein PDF-Dokument ohne Text OCRisieren
 
 
 ---
@@ -133,7 +135,7 @@ Nobutake Kamiya</div>
 
 ## Voraussetzung
 1. Zotero Stand alone (Version 6 oder höher) ist auf dem Rechner bzw. Laptop installiert
-1. Für DeepL-API (kostenlos) braucht man eine Kreditkarte
+
 
 
 ---
@@ -143,9 +145,68 @@ Nobutake Kamiya</div>
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-## Installation I : Plugin auswählen...
+## Installation I : Tesseract installieren...
+- Offizielle [tesseract](https://tesseract-ocr.github.io/tessdoc/Downloads.html)-Seite
+- Leider gibt es momentan keinen offiziellen Installer (Stand: 31.01.2023)
+- Deshalb den Installer von UB Mannheim nehmen
+![height:300px](./img/illust_plugin_tessa_1.png)
+
+
+
+---
+
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Installation I : Tesseract installieren... (Windows)
+- [Tesseract UB Mannheim](https://github.com/UB-Mannheim/tesseract/wiki)
+- Einen passenden Installer auswählen und herunterladen
+![height:300px](./img/illust_plugin_tessa_2.png)
+
+
+---
+
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Installation I : Tesseract installieren... (Windows)
+- Bei __Windows__ exe-File ausführen
+- Pfad merken
+![height:300px](./img/illust_plugin_tessa_3.png)
+
+
+---
+
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Installation II : Poppler installieren... (Windows)
+- Das Github Repo [Poppler (Windows)](https://github.com/oschwartz10612/poppler-windows) besuchen
+- Das neueste Release (ZIP-File) herunterladen
+- ZIP-File in einem neuen Ordner entpacken und den Pfad merken
+![height:300px](./img/illust_plugin_popp.png)
+
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Installation III : Plugin "Zotero OCR" installieren...
 - Offizielle [Plugin-List](https://www.zotero.org/support/plugins)
-![height:300px](./img/illust_plugins.png)
+- [Zotero OCR](https://github.com/UB-Mannheim/zotero-ocr) anwählen
+![height:300px](./img/illust_plugin_tessa_4.png)
 
 ---
 
@@ -156,7 +217,7 @@ Nobutake Kamiya</div>
 </header>
 
 
-## Installation II : Github Repo "zotero-pdf-translate" I
+## Installation III : Plugin "Zotero OCR" installieren...
 - Unter der Kategorie "Releases" "latest" klicken
 ![height:300px](./img/illust_plugin_github.png)
 
@@ -168,7 +229,7 @@ Nobutake Kamiya</div>
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-## Installation III : Github Repo "zotero-pdf-translate" II
+## Installation III :  Plugin "Zotero OCR" installieren...
 - XPI-File herunterladen (Bei FireFox rechts klick und "Speichern unter..." auswählen)
 ![height:300px](./img/illust_plugin_github2.png)
 
@@ -182,7 +243,7 @@ Nobutake Kamiya</div>
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-## Installation IV : Github Repo "zotero-pdf-translate" II
+## Installation IV :  Plugin "Zotero OCR" installieren...
 - XPI-File herunterladen (Bei FireFox rechts klick und "Speichern unter..." auswählen)
 ![height:300px](./img/illust_plugin_github2.png)
 

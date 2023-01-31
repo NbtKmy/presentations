@@ -73,7 +73,7 @@ Nobutake Kamiya</div>
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-![width:600px](./zotero-logo.svg)
+![width:600px](./img/zotero-logo.svg)
 [Link zur offiziellen Seite](https://www.zotero.org/)
 
 ---
@@ -146,7 +146,7 @@ Nobutake Kamiya</div>
 
 ## Konfiguration II
 4. Zotero-App mit dem Zotero-Account verbinden ("Einstellung" > "Sync")
-![height:300px](./screenshot1.png)
+![height:300px](./img/screenshot1.png)
 
 ---
 
@@ -169,7 +169,7 @@ Vorführung: Importieren
 </header>
 
 ## Importieren aus dem Browser mit Zotero-Connector
-![](./illust_import1.jpg)
+![](./img/illust_import1.jpg)
 
 ---
 
@@ -179,7 +179,7 @@ Vorführung: Importieren
 </header>
 
 ##  Importieren durch einen Identifikator wie ISBN oder DOI
-![](./illust_import2.jpg)
+![](./img/illust_import2.jpg)
 
 
 ---
@@ -190,7 +190,7 @@ Vorführung: Importieren
 </header>
 
 ## Taggen
-![](./illust_import3.jpg)
+![](./img/illust_import3.jpg)
 
 ---
 
@@ -212,7 +212,7 @@ Vorführung: Zitat und Bibliografie
 </header>
 
 ## Zitat im Text I
-![](./illust_zitat1.jpg)
+![](./img/illust_zitat1.jpg)
 
 ---
 
@@ -222,7 +222,7 @@ Vorführung: Zitat und Bibliografie
 </header>
 
 ## Zitat im Text II
-![height:450px](./illust_zitat2.jpg)
+![height:450px](./img/illust_zitat2.jpg)
 
 ---
 
@@ -256,7 +256,7 @@ Vorführung: Liste teilen und publizieren
 
 ## Liste teilen I
 Im Browser in Zotero einloggen...
-![](./illust_share1.png)
+![](./img/illust_share1.png)
 
 ---
 
@@ -266,7 +266,7 @@ Im Browser in Zotero einloggen...
 </header>
 
 ## Liste teilen II
-![height:450px](./illust_share2.png)
+![height:450px](./img/illust_share2.png)
 
 ---
 
@@ -276,7 +276,7 @@ Im Browser in Zotero einloggen...
 </header>
 
 ## Liste teilen III
-![height:450px](./illust_share3.png)
+![height:450px](./img/illust_share3.png)
 
 ---
 
@@ -286,7 +286,7 @@ Im Browser in Zotero einloggen...
 </header>
 
 ## Liste teilen IV
-![height:450px](./illust_share4.png)
+![height:450px](./img/illust_share4.png)
 
 ---
 
