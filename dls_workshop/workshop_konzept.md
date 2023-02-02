@@ -84,3 +84,15 @@ footer: Nobu
 ## Contents : Vorschläge 5
 | Titel | Beschreibung | Wie viele Sitzungen? | Requirements |
 |-------|--------------|----------------------|--------------|
+| KI Objekt erkennung| YOLO | 1-2 | Google Colab |
+| KI Bildbearbeitung | Stable Diffusion| 1 | Google Colab|
+
+---
+
+## Contents : Vorschläge 5
+| Titel | Beschreibung | Wie viele Sitzungen? | Requirements |
+|-------|--------------|----------------------|--------------|
+| KI API für Huggingface & OpenAI| unterschiedliche KI-Modelle über API verwenden | 1-2 | Google Colab |
+| Markdown | Markdown schreibweise lernen | 1 | VSCode oder anderes|
+
+
