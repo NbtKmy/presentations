@@ -73,9 +73,9 @@ section h2 {
 </header>
 
 ## Was wollen wir überhaupt hier?
-- Nachhaltigkeit in die UB Zürich einführen
+- Nachhaltigkeit in der UB Zürich einführen
 - ... und sie langfristig etablieren und aufrechterhalten
-- Aber bitte kein "__Greenwashing__"
+- Aber kein "__Greenwashing__" betreiben
 
 ---
 
@@ -98,10 +98,10 @@ section h2 {
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-## Wie können wir es erreichen? - Vorschlag
-- Arbeitsgruppe Nachhaltigkeit gründen
-- Aufkläreungsarbeit innerhalb der UB
-- AG steht für Zielsetzungen, Assessments und Gespräch mit der UB-Leitung und den Externen
+## Wie können wir dies erreichen? - Vorschlag
+- Arbeitsgruppe "Nachhaltigkeit UB" gründen
+- Aufklärungsarbeit innerhalb der UB
+- AG steht für Zielsetzungen, Assessments und Gespräche mit der UB-Leitung und den Externen
 
 ---
 
@@ -137,6 +137,7 @@ section h2 {
 - [UN](https://www.un.org/sustainabledevelopment/sustainable-development-goals/)
 - [IFLA : Powering Sustainable Development](https://www.ifla.org/de/units/sustainable-development/)
 - [Bibliosuisse](https://www.bibliosuisse.ch/aktivitaten/kampagnebiblio2030)
+- [Nachhaltigkeitsbericht UZH](https://www.sustainability.uzh.ch/dam/jcr:c41ad1e0-1bbb-4000-8686-7953ee78f83f/Nachhaltigkeitsbericht%202019_2020%20der%20UZH.pdf)
 
 
 
