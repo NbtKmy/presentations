@@ -47,52 +47,11 @@ footer: Nobu
 
 ---
 
-## Contents : Vorschläge 1
+## Contents
 
-| Titel | Beschreibung | Wie viele Sitzungen? | Requirements |
-|-------|--------------|----------------------|--------------|
-|NLP (Natural Lanugage Processing) Einstieg| Einführung NLP mit Voyant| 1 | Browser |
-|NLP Vektorisierung| Datenauftreiben, Data Cleaning, Data analyse| 3-4? | Browser, Google Colab (Google Account)|
+### Siehe die [Spreadsheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vS2cCt-WScgwkKn0l0faMR9mszeY0Bp5UNShrjdid5pYcDNO6ruD5_5em5Z20hshVFn0L7foFUvYwQB/pubhtml)
 
 
 ---
 
-## Contents : Vorschläge 2
-| Titel | Beschreibung | Wie viele Sitzungen? | Requirements |
-|-------|--------------|----------------------|--------------|
-|GIS mit Python| Vorstellung der Daten für Karten (Raster/Vector) und Visualisierung mit Python| 1 | Browser, Google Colab (Google Account)|
-|GifItUp Workshop| Handson für Gif-Animation mit UrheberrechtsInformation| 1 | Browser |
-
----
-
-## Contents : Vorschläge 3
-| Titel | Beschreibung | Wie viele Sitzungen? | Requirements |
-|-------|--------------|----------------------|--------------|
-|Geographische Eigenschaften notieren| Mit iPhone LiDAR Orte/Gegenstände als 3D objekte aufnehmen| 2 | iPhone(12Pro aufwärts), Cloudcompare, QGIS|
-|Alte Karte Georeferenzieren| vom Bild zu Karte mit QGIS| 1 | QGIS |
-
----
-
-## Contents : Vorschläge 4
-| Titel | Beschreibung | Wie viele Sitzungen? | Requirements |
-|-------|--------------|----------------------|--------------|
-| TEI erstellen| Einen Text in TEI-Standard schreiben| 2 | Oxygen |
-| TEI-Daten verwenden | Aus TEI-Daten information herausholen| 1 | Oxygen, Google Colab|
-
----
-
-## Contents : Vorschläge 5
-| Titel | Beschreibung | Wie viele Sitzungen? | Requirements |
-|-------|--------------|----------------------|--------------|
-| KI Objekt erkennung| YOLO | 1-2 | Google Colab |
-| KI Bildbearbeitung | Stable Diffusion| 1 | Google Colab|
-
----
-
-## Contents : Vorschläge 5
-| Titel | Beschreibung | Wie viele Sitzungen? | Requirements |
-|-------|--------------|----------------------|--------------|
-| KI API für Huggingface & OpenAI| unterschiedliche KI-Modelle über API verwenden | 1-2 | Google Colab |
-| Markdown | Markdown schreibweise lernen | 1 | VSCode oder anderes|
-
-
+# Danke!
