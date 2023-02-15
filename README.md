@@ -11,3 +11,6 @@ Link to Presentation: https://nbtkmy.github.io/presentations/NHC2022/presentatio
 
 Link to Presentation: https://nbtkmy.github.io/presentations/Japanologentag2022/presentation.html
 
+## DLS Workshop - Konzept
+Link to Presentation: https://nbtkmy.github.io/presentations/dls_workshop/workshop_konzept.html
+
