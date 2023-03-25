@@ -187,6 +187,36 @@ Nobutake Kamiya</div>
 ![height:300px](./img/illust_plugin_github2.png)
 
 
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Installation V : Add-ons Manager in Zotero-Stand alone
+- Menü "Werkzeuge > Add-on" klicken
+- Das Rädchen-Symbol klicken, dann weiter "Install Add-on From File" klicken 
+- Das XPI-File auswählen und öffnen
+- Zotero Stand alone neu starten
+- Installation fertig!
 
 ---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Add-on Konfigurieren
+
+![height:400px](./img/config_translator.png)
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
 ## Vielen Dank!
