@@ -201,6 +201,7 @@ Nobutake Kamiya</div>
 - Zotero Stand alone neu starten
 - Installation fertig!
 
+
 ---
 
 <header class="header_2nd">
@@ -210,10 +211,75 @@ Nobutake Kamiya</div>
 
 ## Add-on Konfigurieren
 
-![height:400px](./img/config_translator.png)
+- In Zotero-Stand alone "Bearbeiten" > "Einstellungen"
+- Wenn das Add-on richtig installiert ist, taucht ein Tab "Translate" (s. die nächste Folie)
 
 ---
 
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Add-on Konfigurieren
+
+![height:400px](./img/config_translator.svg)
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Add-on Konfigurieren - DeepL (Free plan) verwenden
+
+- Ein Account bei [DeepL](https://www.deepl.com/pro-api?cta=header-pro-api) erstellen (Eine Kreditkarte notwendig!)
+- Die "Konto"-Seite des DeepL-Accounts öffnen 
+
+![height:200px](./img/deepl_1.png)
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Add-on Konfigurieren - DeepL (Free plan) verwenden
+
+- Auf der "Konto"-Seite unten findet man den Authentifizierungsschlüssel für API
+- Wenn nicht, einen neuen Schlüssel erstellen
+![height:200px](./img/deepl_2.png)
+
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Add-on Konfigurieren - DeepL (Free plan) verwenden
+- In der instellung vom Zotero-Stand alone "Translate" wählen
+- Bei "Translation Services" "DeepL(Free Plan)" anwählen und den eigenen API-Key hineinkopieren
+- Übersetzungssprachen ändern
+- Fertig!    
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Zu [DeepL API Free](https://www.deepl.com/docs-api)
+- Max. 500.000 Zeichen pro Monat kostenlos 
+- Max. Textmenge 128 KB pro ein Request
+- Daten werden nicht so stark geschützt wie bei DeepL API Pro 
+
+
+---
 <header class="header_2nd">
 <img src="../uni_img/header_links.png" height=80% class="img_links"/>
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
