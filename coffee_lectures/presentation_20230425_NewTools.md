@@ -73,6 +73,80 @@ Nobutake Kamiya</div>
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
+## [Elicit](https://elicit.org/) - in Kürze
+- KI-Unterstützter Suchassistent entwickelt von Ought
+- Dienstleistung seit 2021
+- Unterstützungen
+  - Formulierung der Suchwörter
+  - Zusammenfassung des Abstracts
+  - Kritiken und Zitationsinformation eines Artikels zusammengestellt
+
+---
+
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## [Elicit](https://elicit.org/) - Kritikpunkte
+- Ausser Englisch sind die Suchergebnisse suboptimal
+- In geisteswissenschaftlichen Bereichen sind Ergebnisse, Zusammenfassungen und weitere Information manchmal nicht zielführend…
+
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## [Elicit](https://elicit.org/) - Fazit
+
+Im Moment ist das Tool nur für die Suche nach englischsprachigen Artikel interessant. In Zukunft könnte es vielleicht eine drastische Verbesserung geben… 
+
+
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## [ResearchRabbit](https://www.researchrabbit.ai/) - in Kürze
+
+- Ein Literatur-Mapping-Tool 
+- Out of Beta 2021
+- Literatursuche durch Zitationen 
+- Visualisierung der wissenschaftlichen Werke mit Netzwerkdarstellung
+- Die einzelne Kollektion kann mit einem Zotero-Ordner verbunden werden
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## [ResearchRabbit](https://www.researchrabbit.ai/) - Kritikpunkt
+
+- Bei nicht-englischen Artikel funktioniert es nicht gut 
+- Artikel in den geisteswissenschaftlichen Bereichen sind zum Teil nicht verzeichnet
+- Literatur in Natur-, Sozial- und Sprachwissenschaften sind besser dargestellt
+
+
+---
+
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## [ResearchRabbit](https://www.researchrabbit.ai/) - Fazit
+
+Wenn man bei der Literaturrecherche nicht mehr weiterkommt, könnte das Tool in Kombination mit Elicit zusammen eingesetzt werden. Für die englischsprachige Literatur könnte es hilfreich sein. 
 
 
 ---
