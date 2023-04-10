@@ -74,12 +74,12 @@ Nobutake Kamiya</div>
 </header>
 
 ## [Elicit](https://elicit.org/) - in Kürze
-- KI-Unterstützter Suchassistent entwickelt von Ought
+- KI-Unterstützter Suchassistent von Ought entwickelt
 - Dienstleistung seit 2021
 - Unterstützungen
   - Formulierung der Suchwörter
   - Zusammenfassung des Abstracts
-  - Kritiken und Zitationsinformation eines Artikels zusammengestellt
+  - Zusammengestellte Kritiken und Zitationsinformation eines Artikels
 
 ---
 
@@ -90,8 +90,8 @@ Nobutake Kamiya</div>
 </header>
 
 ## [Elicit](https://elicit.org/) - Kritikpunkte
-- Ausser Englisch sind die Suchergebnisse suboptimal
-- In geisteswissenschaftlichen Bereichen sind Ergebnisse, Zusammenfassungen und weitere Information manchmal nicht zielführend…
+- Suchergebnisse nur auf Englisch optimal
+- In geisteswissenschaftlichen Bereichen sind Ergebnisse, Zusammenfassungen und weitere Information manchmal nicht zielführend …
 
 
 ---
@@ -103,7 +103,7 @@ Nobutake Kamiya</div>
 
 ## [Elicit](https://elicit.org/) - Fazit
 
-Im Moment ist das Tool nur für die Suche nach englischsprachigen Artikel interessant. In Zukunft könnte es vielleicht eine drastische Verbesserung geben… 
+Im Moment ist das Tool nur für die Suche nach englischsprachigen Artikel geeignet. In Zukunft könnte es vielleicht eine drastische Verbesserung geben … 
 
 
 
@@ -117,10 +117,10 @@ Im Moment ist das Tool nur für die Suche nach englischsprachigen Artikel intere
 ## [ResearchRabbit](https://www.researchrabbit.ai/) - in Kürze
 
 - Ein Literatur-Mapping-Tool 
-- Out of Beta 2021
+- Zugängliche Version für breites Publikum seit 2021
 - Literatursuche durch Zitationen 
 - Visualisierung der wissenschaftlichen Werke mit Netzwerkdarstellung
-- Die einzelne Kollektion kann mit einem Zotero-Ordner verbunden werden
+- Einzelne Kollektionen können mit einem Zotero-Ordner verbunden werden
 
 ---
 
@@ -131,7 +131,7 @@ Im Moment ist das Tool nur für die Suche nach englischsprachigen Artikel intere
 
 ## [ResearchRabbit](https://www.researchrabbit.ai/) - Kritikpunkt
 
-- Bei nicht-englischen Artikel funktioniert es nicht gut 
+- Für nicht englischen Artikel suboptimal
 - Artikel in den geisteswissenschaftlichen Bereichen sind zum Teil nicht verzeichnet
 - Literatur in Natur-, Sozial- und Sprachwissenschaften sind besser dargestellt
 
@@ -146,7 +146,7 @@ Im Moment ist das Tool nur für die Suche nach englischsprachigen Artikel intere
 
 ## [ResearchRabbit](https://www.researchrabbit.ai/) - Fazit
 
-Wenn man bei der Literaturrecherche nicht mehr weiterkommt, könnte das Tool in Kombination mit Elicit zusammen eingesetzt werden. Für die englischsprachige Literatur könnte es hilfreich sein. 
+Wenn man bei der Literaturrecherche nicht mehr weiterkommt, kann das Tool in Kombination mit Elicit eingesetzt werden. Für die englischsprachige Literatur kann es hilfreich sein. 
 
 
 ---

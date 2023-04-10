@@ -60,7 +60,7 @@ section h2 {
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-# PDF-Dokumente übersetzen in Zotero
+# PDF-Dokumente in Zotero übersetzen 
 <div class="text_white">Tools für das wissenschaftliche Informationsmanagement<br>
 Nobutake Kamiya</div>
 
@@ -143,8 +143,8 @@ Nobutake Kamiya</div>
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-## Installation I : Plugin auswählen...
-- Offizielle [Plugin-List](https://www.zotero.org/support/plugins)
+## Installation I: Plugin auswählen...
+- Offizielle [Plugin-Liste](https://www.zotero.org/support/plugins)
 ![height:300px](./img/illust_plugins.png)
 
 ---
@@ -156,7 +156,7 @@ Nobutake Kamiya</div>
 </header>
 
 
-## Installation II : Github Repo "zotero-pdf-translate" I
+## Installation II: Github Repo "zotero-pdf-translate" I
 - Unter der Kategorie "Releases" "latest" klicken
 ![height:300px](./img/illust_plugin_github.png)
 
@@ -168,7 +168,7 @@ Nobutake Kamiya</div>
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-## Installation III : Github Repo "zotero-pdf-translate" II
+## Installation III: Github Repo "zotero-pdf-translate" II
 - XPI-File herunterladen (Bei FireFox rechts klick und "Speichern unter..." auswählen)
 ![height:300px](./img/illust_plugin_github2.png)
 
@@ -176,27 +176,14 @@ Nobutake Kamiya</div>
 ---
 
 
-
 <header class="header_2nd">
 <img src="../uni_img/header_links.png" height=80% class="img_links"/>
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-## Installation IV : Github Repo "zotero-pdf-translate" II
-- XPI-File herunterladen (Bei FireFox rechts klick und "Speichern unter..." auswählen)
-![height:300px](./img/illust_plugin_github2.png)
-
-
----
-
-<header class="header_2nd">
-<img src="../uni_img/header_links.png" height=80% class="img_links"/>
-<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
-</header>
-
-## Installation V : Add-ons Manager in Zotero-Stand alone
+## Installation IV: Add-ons Manager in Zotero-Stand alone
 - Menü "Werkzeuge > Add-on" klicken
-- Das Rädchen-Symbol klicken, dann weiter "Install Add-on From File" klicken 
+- Das Rädchen-Symbol anklicken, dann weiter auf "Install Add-on From File" klicken 
 - Das XPI-File auswählen und öffnen
 - Zotero Stand alone neu starten
 - Installation fertig!
@@ -212,7 +199,7 @@ Nobutake Kamiya</div>
 ## Add-on Konfigurieren
 
 - In Zotero-Stand alone "Bearbeiten" > "Einstellungen"
-- Wenn das Add-on richtig installiert ist, taucht ein Tab "Translate" (s. die nächste Folie)
+- Wenn das Add-on richtig installiert ist, taucht ein Tab "Translate" auf(s. die nächste Folie)
 
 ---
 
@@ -234,8 +221,8 @@ Nobutake Kamiya</div>
 
 ## Add-on Konfigurieren - DeepL (Free plan) verwenden
 
-- Ein Account bei [DeepL](https://www.deepl.com/pro-api?cta=header-pro-api) erstellen (Eine Kreditkarte notwendig!)
-- Die "Konto"-Seite des DeepL-Accounts öffnen 
+- Einen Account bei [DeepL](https://www.deepl.com/pro-api?cta=header-pro-api) erstellen (Eine Kreditkarte notwendig!)
+- "Konto"-Seite des DeepL-Accounts öffnen 
 
 ![height:200px](./img/deepl_1.png)
 
@@ -261,7 +248,7 @@ Nobutake Kamiya</div>
 </header>
 
 ## Add-on Konfigurieren - DeepL (Free plan) verwenden
-- In der instellung vom Zotero-Stand alone "Translate" wählen
+- In der Einstellung vom Zotero-Stand alone "Translate" wählen
 - Bei "Translation Services" "DeepL(Free Plan)" anwählen und den eigenen API-Key hineinkopieren
 - Übersetzungssprachen ändern
 - Fertig!    
@@ -275,7 +262,7 @@ Nobutake Kamiya</div>
 
 ## Zu [DeepL API Free](https://www.deepl.com/docs-api)
 - Max. 500.000 Zeichen pro Monat kostenlos 
-- Max. Textmenge 128 KB pro ein Request
+- Max. Textmenge 128 KB pro Request
 - Daten werden nicht so stark geschützt wie bei DeepL API Pro 
 
 
