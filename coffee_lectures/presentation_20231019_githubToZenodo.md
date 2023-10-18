@@ -73,12 +73,13 @@ section h2 {
 </header>
 
 ## [Github](https://github.com/) - in Kürze
-- Plattform und Cloud
-- Dienstleistung seit 2021
-- Unterstützungen
-  - Formulierung der Suchwörter
-  - Zusammenfassung des Abstracts
-  - Zusammengestellte Kritiken und Zitationsinformation eines Artikels
+- Cloud basierte Plattform für Softwareentwicklung und Versionsverwaltung
+- Dienstleistung seit 2008
+- Gehört Microsoft seit 2018
+- Ähnliche Dienstleistung z.B. GitLab (UZH hat ein [Instanz](https://www.zi.uzh.ch/de/staff/software-elearning/webplatforms/gitlab.html))
+
+## Ganz Kurz
+Mit Github kann man ein Software, Datenset oder Codes mit einem Team entwickeln und die Version einfach verwalten!
 
 ---
 
@@ -88,9 +89,28 @@ section h2 {
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-## [Elicit](https://elicit.org/) - Kritikpunkte
-- Suchergebnisse nur auf Englisch optimal
-- In geisteswissenschaftlichen Bereichen sind Ergebnisse, Zusammenfassungen und weitere Information manchmal nicht zielführend …
+## [Zenodo](https://zenodo.org/) - in Kürze
+- Online-Speicherdienst. Finanziert von der Europäsichen Kommission
+- Gepflegt/Wartung von CERN Data Centre & InvenioRDM
+- Man kann dort die wissenschaftlichen Datensets oder auch Software usw. deponieren 
+- Der Eintrag erhält DOI
+
+## Ganz Kurz
+Zenodo ist ein gutes Data-Repository, wo die Wissenschaftler selber die Daten hochlanden können. 
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Workflow - Datenset/Software von Github zu Zenodo?
+
+... Also man kann gut die beiden Dienstleistungen von Github und Zenodo kombinieren und dadurch einen Workflow konzipieren;
+1. Erster Schritt - Entwicklung/Versionverwaltung des Datenset/Software in Github
+1. Zweiter Schritt - wenn Projekt die erste Version publiziern will, kann das Datenpaket auf Zenodo publiziert werden
+
 
 
 ---
@@ -100,26 +120,11 @@ section h2 {
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-## [Elicit](https://elicit.org/) - Fazit
+## ...und wie das geht? Part 1
 
-Im Moment ist das Tool nur für die Suche nach englischsprachigen Artikel geeignet. In Zukunft könnte es vielleicht eine drastische Verbesserung geben … 
+### Voraussetzung 
+- Im Github-Repo bereits das Datenset oder Software vorhanden
 
-
-
----
-
-<header class="header_2nd">
-<img src="../uni_img/header_links.png" height=80% class="img_links"/>
-<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
-</header>
-
-## [ResearchRabbit](https://www.researchrabbit.ai/) - in Kürze
-
-- Ein Literatur-Mapping-Tool 
-- Zugängliche Version für breites Publikum seit 2021
-- Literatursuche durch Zitationen 
-- Visualisierung der wissenschaftlichen Werke mit Netzwerkdarstellung
-- Einzelne Kollektionen können mit einem Zotero-Ordner verbunden werden
 
 ---
 
@@ -128,11 +133,11 @@ Im Moment ist das Tool nur für die Suche nach englischsprachigen Artikel geeign
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-## [ResearchRabbit](https://www.researchrabbit.ai/) - Kritikpunkt
+## ...und wie das geht? Part 2
 
-- Für nicht englischen Artikel suboptimal
-- Artikel in den geisteswissenschaftlichen Bereichen sind zum Teil nicht verzeichnet
-- Literatur in Natur-, Sozial- und Sprachwissenschaften sind besser dargestellt
+1. Bei Zenodo mit Github-Account anmelden
+1. Dann "Profile Menü" oben rechts aufmachen. Darunter "Github" klicken
+1. Dann erscheit die Anleitung, der du folgen kannst...
 
 
 ---
@@ -143,9 +148,9 @@ Im Moment ist das Tool nur für die Suche nach englischsprachigen Artikel geeign
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-## [ResearchRabbit](https://www.researchrabbit.ai/) - Fazit
+## ...und wie das geht? Part 3
 
-Wenn man bei der Literaturrecherche nicht mehr weiterkommt, kann das Tool in Kombination mit Elicit eingesetzt werden. Für die englischsprachige Literatur kann es hilfreich sein. 
+![](./githubZenodo.png)
 
 
 ---
@@ -154,4 +159,32 @@ Wenn man bei der Literaturrecherche nicht mehr weiterkommt, kann das Tool in Kom
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-## Vielen Dank!
+## Zitieren erleichtern mit CFF-File
+
+Wenn man die ZIP-File in Zenodo hochgeladen hat, erhält man DOI. Dies kann man wiederum in Github (README und CFF-File) hinzufügen!
+
+Eine CFF-File sieht so aus:
+```cff
+cff-version: 1.2.0
+authors:
+  - family-names: Kamiya
+    given-names: Nobutake
+    orcid: https://orcid.org/0000-0002-5755-3322
+title: "DB-App (Database Application)"
+version: 1.0.0
+doi: 10.5281/zenodo.8381877
+date-released: 2023-09-26
+```
+
+---
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## UB hilft bei weiteren Themen wie...
+
+- Erstellung der DMP (Data Management Plan)
+- Data Management
+
+Bitte bei Liaison Librarian in entsprechenden Bereichen fragen!
