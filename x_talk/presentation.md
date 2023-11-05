@@ -17,8 +17,8 @@ footer: ![](https://i.creativecommons.org/l/by/4.0/88x31.png) Nobutake Kamiya 20
 
 # 自己紹介
 ## 大学図書館内でのお仕事
-- 学術司書（日本学）、データキュレーター（LARS）
-- DLS (Digital Library Space)
+- 学術司書（日本学）、データキュレーター（[LARS](https://www.lars.uzh.ch/en.html)）
+- [DLS](https://www.ub.uzh.ch/en/ub-besuchen/Raumangebot/digital-library-space.html) (Digital Library Space)
 
 ---
 
@@ -70,9 +70,9 @@ footer: ![](https://i.creativecommons.org/l/by/4.0/88x31.png) Nobutake Kamiya 20
 ---
 
 # ワークショップ・展望、もしくは僕はどうしたいの？
-- DLSでDHについてだべれる場所に…
-- 「あそこに行ったらおっさんがだらっとDHについて一緒に悩んでくれる」場所
 
+- DLSを「あそこに行ったら図書館のおっさん、もしくは他に興味ある人がだらっとDHについて一緒に悩んでくれる」場所にしてみたい
+- ワークショップはそういう雰囲気を伝える場として
 ---
 
 # みんなどう思う？
