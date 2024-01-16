@@ -132,58 +132,16 @@ section h2 {
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-## ...und wie das geht? Part 2
+## Ja, ich will Notero! Aber wie?
 
-1. Bei Zenodo mit Github-Account anmelden
-1. Dann "Profile Menü" oben rechts aufmachen. Darunter "Github" klicken
-1. Dann erscheit die Anleitung, der du folgen kannst...
+Anleitung ist eigentlich im [Readme des Plugins](https://github.com/dvanoni/notero?tab=readme-ov-file#notero) gut dokumentiert...
 
-
----
-
-
-<header class="header_2nd">
-<img src="../uni_img/header_links.png" height=80% class="img_links"/>
-<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
-</header>
-
-## ...und wie das geht? Part 3
-
-![](./githubZenodo.png)
-
+Aber wir schauen es Schritt für Schritt!
+1. Ein API-Token [Notion - Meine Einbindungen](https://www.notion.so/my-integrations) generieren und gut bewahren
+1. Eine Tabelle ("Database") in Notion anlegen und selber konfigurieren oder die vorgefertigten Muster kopieren 
+1. Zugriff von Notero auf die Tabelle zulassen
+1. Notero in Zotero installieren und konfigurieren
 
 ---
-<header class="header_2nd">
-<img src="../uni_img/header_links.png" height=80% class="img_links"/>
-<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
-</header>
 
-## Zitieren erleichtern mit CFF-File
 
-Wenn man die ZIP-File in Zenodo hochgeladen hat, erhält man DOI. Dies kann man wiederum in Github (README und CFF-File) hinzufügen!
-
-Eine CFF-File sieht so aus:
-```cff
-cff-version: 1.2.0
-authors:
-  - family-names: Kamiya
-    given-names: Nobutake
-    orcid: https://orcid.org/0000-0002-5755-3322
-title: "DB-App (Database Application)"
-version: 1.0.0
-doi: 10.5281/zenodo.8381877
-date-released: 2023-09-26
-```
-
----
-<header class="header_2nd">
-<img src="../uni_img/header_links.png" height=80% class="img_links"/>
-<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
-</header>
-
-## UB hilft bei weiteren Themen wie...
-
-- Erstellung der DMP (Data Management Plan)
-- Data Management
-
-Bitte bei Liaison Librarian in entsprechenden Bereichen fragen!
