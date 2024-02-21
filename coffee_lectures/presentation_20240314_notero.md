@@ -1,7 +1,7 @@
 ---
 marp: true
 paginate: true
-footer: "19. Nov. 2023 / Nobutake Kamiya: Datenpaket von Github in Zenodo"
+footer: "14. März 2024 / Nobutake Kamiya: Notero = Notion + Zotero"
 
 ---
 <style>
@@ -109,7 +109,7 @@ section h2 {
 
 ## [Notero](https://github.com/dvanoni/notero)
 
-- Ein Plugin für Zotero
+- Ein Plugin für Zotero (Version 6.0.27 oder höher)
 - Erstellt von David Vanoni, Software Entwickler
 - Ermöglicht bibliographische Information und Notizen von Zotero in Notion zu übertragen 
 
@@ -144,4 +144,87 @@ Aber wir schauen es Schritt für Schritt!
 
 ---
 
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
 
+## API-Token von Notion erstellen 1
+
+![w:500](./img/notero_1.png)
+- "Neue Einbindung erstellen" klicken
+- Einstellung bei "Verknüpfter Workspace" den eigenen Workspace auswählen & bei "Name" einen beliebigen Namen (und den Namen merken!)
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## API-Token von Notion erstellen 2
+
+![bg right 70%](./img/notero_2.png)
+- "Inhalte lesen", "aktualisieren" und "einfügen" aktivieren
+- Weitere Sachen können so bleiben, dann (endlich!) die neue Einbindung erstellen!
+- "Internal Integration Secret" irgendwo speichern - Bitte dies geheim halten! 
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Eine "Database" in Notion anlegen und konfigurieren 
+Für die gemütlichen Leute...
+-> [Example Notion Databases](https://github.com/dvanoni/notero?tab=readme-ov-file#example-notion-databases) kopieren
+
+... Oder selber eine Database anlegen
+-> [Notion Database Properties](https://github.com/dvanoni/notero?tab=readme-ov-file#notion-database-properties) ansehen und Name & Typen der Properties demnach einstellen
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Zugriff von Notero auf die "Database" zulassen 
+
+
+![bg right h:600](./img/notero_3.png)
+1. Die Database auswählen und "..."-Button oben rechts klicken 
+1. Im Menü "Verbinden mit" auswählen
+1. Im Suchfenster den Namen von deiner Einbindung eingeben und suchen 
+
+
+--- 
+
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Notero in Zotero installieren
+
+1. [Die neueste Version von Notero-Addon (.xpi)](https://github.com/dvanoni/notero/releases) herunterladen
+1. Wenn man FireFox als Browser hat, rechts klick und dann "Link speichern unter" klicken
+1. In Zotero-Stand alone "Werkzeuge" -> "Add-ons" klicken
+1. In dem Add-ons Manager das Rädchen-Symbol klicken -> "Install Add-on from File..." klicken und "notero-X.X.XX.xpi" auswählen
+1. Notero installieren
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Notero in Zotero konfigurieren
+
+1. Im Zotero : "Werkzeuge" -> "Notero Preferences..." klicken
+1. Bei "Integration token" das Secret Token von Notion und bei "Database" "Notero" eingeben
+1. Property & Sync preference nach Belieben auswählen 
+1. Fertig!!
