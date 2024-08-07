@@ -94,12 +94,10 @@ If you have questions about such online tools, please ask me!
 
 ---
 
-## Gaming
+## Gaming event example (in planning for 2025)
 
 
-<!-- <iframe src="https://youtu.be/iqysmS4lxwQ?feature=shared"></iframe> -->
-
-<video src="https://youtu.be/iqysmS4lxwQ?feature=shared" controls></video>
+<iframe src="https://www.youtube.com/embed/iqysmS4lxwQ" height="400" allow="controls"></iframe>
 
 ---
 
