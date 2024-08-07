@@ -90,12 +90,17 @@ If you have questions about such online tools, please ask me!
 ## Other Services
 - Helping Datamanagement
 - Support for Programming, Softwares, and themes in Digital Humanities
-- Gaming 
+- Organize gaming events
 
 ---
 
-## Question
+## Gaming
 
 
-<video src="https://youtu.be/TTKtcgrHrn0?feature=shared"></video>
+<!-- <iframe src="https://youtu.be/iqysmS4lxwQ?feature=shared"></iframe> -->
+
+<video src="https://youtu.be/iqysmS4lxwQ?feature=shared" controls></video>
+
+---
+
 
