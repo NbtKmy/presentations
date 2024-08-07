@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<base target="_top">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Quick Start - Leaflet</title>
+	
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+	<style>
+		html, body {
+			height: 100%;
+			margin: 0;
+		}
+		.leaflet-container {
+			height: 400px;
+			width: 600px;
+			max-width: 100%;
+			max-height: 100%;
+		}
+	</style>
+
+	
+</head>
+<body>
+
+
+
+<div id="map" style="width: 100%; height: 100%;"></div>
+<script>
+
+	const map = L.map('map').setView([47.36667, 8.55], 15);
+
+	const tiles = L.tileLayer('https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.zeitreihen/default/18921231/3857/{z}/{x}/{y}.png', {
+		maxZoom: 19,
+		attribution: '&copy; <a href="https://www.swisstopo.admin.ch/">Swisstopo</a>'
+	}).addTo(map);
+
+    const greenIcon = new L.Icon({
+        iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
+        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+        });
+
+    // Wohungen 
+    const marker_friedrich = L.marker([47.3718929,8.5422553], {icon: greenIcon}).bindPopup("Wohnung von Friedrich Wilhelm Müller").addTo(map);
+    const marker_karl = L.marker([47.3695172,8.5415401], {icon: greenIcon}).bindPopup("Wohnung von Karl Ludwig Ziegler").addTo(map);
+    const marker_weber = L.marker([47.3742436,8.5436706], {icon: greenIcon}).bindPopup("Wohnung von Emil Gustav Weber").addTo(map);
+    const marker_anna = L.marker([47.3704611,8.5446628], {icon: greenIcon}).bindPopup("Wohnung von Anna Maria Schneider").addTo(map);
+    const marker_elisabeth = L.marker([47.3728156,8.5438223], {icon: greenIcon}).bindPopup("Wohnung von Elisabeth Rosa Meier").addTo(map);
+
+    const goldIcon = new L.Icon({
+        iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-gold.png',
+        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+        });
+    
+    const marker_unispital = L.marker([47.374983,8.5512032], {icon: goldIcon}).bindPopup("Unispital").addTo(map);
+    const marker_recht = L.marker([47.3733267,8.548341], {icon: goldIcon}).bindPopup("Rechtswissenschaft").addTo(map);
+    const marker_theo = L.marker([47.3700513,8.5396691], {icon: goldIcon}).bindPopup("Theologie").addTo(map);
+    const marker_phil = L.marker([47.374038,8.5469074], {icon: goldIcon}).bindPopup("Philosophie").addTo(map);
+
+
+
+</script>
+
+
+
+</body>
+</html>
