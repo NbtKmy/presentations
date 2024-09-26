@@ -1,7 +1,7 @@
 ---
 marp: true
 paginate: true
-footer: "08. Okt. 2024 / Nobutake Kamiya: Speicherkapazität in Zotero erweitern"
+footer: "03. Okt. 2024 / Nobutake Kamiya: Speicherkapazität in Zotero erweitern"
 
 ---
 <style>
@@ -63,6 +63,8 @@ section h2 {
 # Speicherkapazität in Zotero erweitern
 <div class="text_white">
 Nobutake Kamiya</div>
+
+![width:100px](./img/by.svg)
 
 ![bg 100%](../uni_img/hintergrund_1page.jpg)
 
