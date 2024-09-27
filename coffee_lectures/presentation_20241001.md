@@ -86,11 +86,67 @@ Nobutake Kamiya</div>
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-## Obsidian?
-- Nicht Open Source Software
+## Obsidian? Genz einfach
+... ist ein Wissensmanagementsystem!
+
+---
+
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Obsidian? Mehr Information
+- Kein Open Source Software
 - Aber kostenlos für private, nicht-kommerzielle Nutzung 
 - Lokale Anwendung; Daten/Notizen lokal gespeichert (s. [Manifesto](https://obsidian.md/about))
 
 ---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Demo
+
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Pros vs Kons 
+__Pros__
+- Daten und Notizen lokal gespeichert (Deine Daten gehören dir, nicht wo anders!)
+- Schnelle Notizeneingabe mit [Markdown](https://de.wikipedia.org/wiki/Markdown)!
+- non-lineare Gedanken schnell eingeben, visualisieren und vernetzen
+- Zahlreiche Plugins
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Pros vs Kons 
+__Kons__
+- Nicht geeignet für Ideen-Teilen
+- Schwerer Einstieg / zu viele Plugins
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Vielen Dank!
+
+
 
 
