@@ -87,5 +87,10 @@ Nobutake Kamiya</div>
 </header>
 
 ## Obsidian?
-- 
+- Nicht Open Source Software
+- Aber kostenlos für private, nicht-kommerzielle Nutzung 
+- Lokale Anwendung; Daten/Notizen lokal gespeichert (s. [Manifesto](https://obsidian.md/about))
+
 ---
+
+
