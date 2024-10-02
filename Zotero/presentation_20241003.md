@@ -122,7 +122,7 @@ Mehr Storage = Mehr glückliche Menschen
 
 ## 2 Möglichkeiten Storage-Erweiterung
 - [WebDAV](https://de.wikipedia.org/wiki/WebDAV) (z.B. SWITCHdrive)
-- Cloudstorage (z.B. GoogleDrive, Dropbox, SWITCHdrive) + Zotfile
+- Cloudstorage (z.B. GoogleDrive, Dropbox, SWITCHdrive) + ~~Zotfile~~ [ZotMoov](https://github.com/wileyyugioh/zotmoov?tab=readme-ov-file)
 
 ---
 
@@ -239,7 +239,7 @@ Methode 1: WebDAV (SWITCHdrive)
 </header>
 
 <div class="bg_grey text_white">
-Methode 2: Cloudstorage + Zotfile
+Methode 2: Cloudstorage + ZotMoov
 </div>
 
 ---
@@ -262,7 +262,31 @@ Methode 2: Cloudstorage + Zotfile
 </header>
 
 ## Zotero konfigurieren 1
-- Plug-In "[ZotFile](https://zotfile.com/)" ins Zotero (Desktop-Applikation) installieren
+- Plug-In "[ZotMoov](https://github.com/wileyyugioh/zotmoov?tab=readme-ov-file)" ins Zotero (Desktop-Applikation) installieren
+- Zotero > Bearbeiten > Einstellungen klicken > ZotMoov Einstellungen... klicken
+- ZotMoov konfigurieren (d.h. Speicherorte dort eingeben siehe die nächste Folie)
+
+
+---
+
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+![height:430px](./img/zotmoov1.png)
+
+---
+
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Zotero konfigurieren 2
+
 - Zotero > Bearbeiten > Einstellungen klicken > "Erweitert"-Tab öffnen
 - Dort bei "Basisverzeichnis für verlinkte Dateianhänge" den Pfad zu dem entsprechenden Ordner von Cloudstorage eingeben 
 - __Achtung__ "Speicherort" so belassen!
@@ -276,10 +300,7 @@ Methode 2: Cloudstorage + Zotfile
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-## Zotero konfigurieren 2
-- Werkzeuge > Zotfile Einstellungen... klicken
-- Tab "Allgemein" den Pfad eingeben
-![height:350px](./img/zotero_zotfile1.png)
+![height:300px](./img/zotmoov2.png)
 
 
 ---
@@ -290,9 +311,27 @@ Methode 2: Cloudstorage + Zotfile
 </header>
 
 ## Zotero konfigurieren 3
-- Tab "Umbenennungs-Regeln" ggf. anpassen 
-![height:350px](./img/zotero_zotfile2.png)
+- Zotero > Bearbeiten > Einstellungen klicken > "Allgemein"-Tab öffnen
+- Unter "File Renaming" den "Customize Filename Format" klicken
+![height:300px](./img/zotmoov3.png)
 
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+![height:400px](./img/zotmoov4.png)
+
+
+
+---
+
+## Zotero konfigurieren 4
+- Zotero > Bearbeiten > Einstellungen klicken > "Sync"-Tab öffnen
+- "Datei-Synchronisierung" > "Dateianhänge in Meine Bibliothek synchronisieren" deaktivieren
+![height:300px](./img/zotmoov5.png)
 
 ---
 
@@ -303,7 +342,7 @@ Methode 2: Cloudstorage + Zotfile
 </header>
 
 ## Fertig!
-![height:400px](./img/zotero_zotfile3.png)
+
 
 
 ---
