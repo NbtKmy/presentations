@@ -1,7 +1,7 @@
 ---
 marp: true
 paginate: true
-footer: "18. April 2023 / Nobutake Kamiya: Zotero II (Tools für das wissenschaftliche Informationsmanagement)"
+footer: "25. März 2025 / Nobutake Kamiya: Large language models in Obsidian: Smart Second Brain"
 
 ---
 <style>
@@ -60,9 +60,11 @@ section h2 {
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-# Elicit & ResearchRabbit
-<div class="text_white">Tools für das wissenschaftliche Informationsmanagement<br>
+# Large language models in Obsidian: Smart Second Brain
+<div class="text_white">
 Nobutake Kamiya</div>
+
+![width:100px](./img/by.svg)
 
 ![bg 100%](../uni_img/hintergrund_1page.jpg)
 
@@ -73,37 +75,8 @@ Nobutake Kamiya</div>
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-## [Elicit](https://elicit.org/) - in Kürze
-- KI-Unterstützter Suchassistent von Ought entwickelt
-- Dienstleistung seit 2021
-- Unterstützungen
-  - Formulierung der Suchwörter
-  - Zusammenfassung des Abstracts
-  - Zusammengestellte Kritiken und Zitationsinformation eines Artikels
-
----
-
-
-<header class="header_2nd">
-<img src="../uni_img/header_links.png" height=80% class="img_links"/>
-<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
-</header>
-
-## [Elicit](https://elicit.org/) - Kritikpunkte
-- Suchergebnisse nur auf Englisch optimal
-- In geisteswissenschaftlichen Bereichen sind Ergebnisse, Zusammenfassungen und weitere Information manchmal nicht zielführend …
-
-
----
-
-<header class="header_2nd">
-<img src="../uni_img/header_links.png" height=80% class="img_links"/>
-<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
-</header>
-
-## [Elicit](https://elicit.org/) - Fazit
-
-Im Moment ist das Tool nur für die Suche nach englischsprachigen Artikel geeignet. In Zukunft könnte es vielleicht eine drastische Verbesserung geben … 
+![bg width:300px](./img/obsidian.png)
+![bg width:250px](./img/ollama.png)
 
 
 
@@ -114,27 +87,9 @@ Im Moment ist das Tool nur für die Suche nach englischsprachigen Artikel geeign
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-## [ResearchRabbit](https://www.researchrabbit.ai/) - in Kürze
-
-- Ein Literatur-Mapping-Tool 
-- Zugängliche Version für breites Publikum seit 2021
-- Literatursuche durch Zitationen 
-- Visualisierung der wissenschaftlichen Werke mit Netzwerkdarstellung
-- Einzelne Kollektionen können mit einem Zotero-Ordner verbunden werden
-
----
-
-<header class="header_2nd">
-<img src="../uni_img/header_links.png" height=80% class="img_links"/>
-<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
-</header>
-
-## [ResearchRabbit](https://www.researchrabbit.ai/) - Kritikpunkt
-
-- Für nicht englischen Artikel suboptimal
-- Artikel in den geisteswissenschaftlichen Bereichen sind zum Teil nicht verzeichnet
-- Literatur in Natur-, Sozial- und Sprachwissenschaften sind besser dargestellt
-
+## Obsidian? Genz einfach
+... ist ein Wissensmanagementsystem!
+[Link zur offiziellen Seite](https://obsidian.md/)
 
 ---
 
@@ -144,10 +99,21 @@ Im Moment ist das Tool nur für die Suche nach englischsprachigen Artikel geeign
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-## [ResearchRabbit](https://www.researchrabbit.ai/) - Fazit
+## Obsidian? Mehr Information
+- Kein Open Source Software
+- Aber kostenlos für private, nicht-kommerzielle Nutzung 
+- Lokale Anwendung; Daten/Notizen lokal gespeichert (s. [Manifesto](https://obsidian.md/about))
 
-Wenn man bei der Literaturrecherche nicht mehr weiterkommt, kann das Tool in Kombination mit Elicit eingesetzt werden. Für die englischsprachige Literatur kann es hilfreich sein. 
+---
 
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Ollama? Ganz kurz!
+... eine Software zur Ausführung von LLMs in der __lokalen__ Umgebung
+[Link zur offiziellen Seite](https://ollama.com/)
 
 ---
 <header class="header_2nd">
@@ -155,4 +121,52 @@ Wenn man bei der Literaturrecherche nicht mehr weiterkommt, kann das Tool in Kom
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-## Vielen Dank!
+## Ollama? Mehr Information
+- LLMs/VLMs sind quantifiziert (GGUF-Format)
+- Sprach-Modelle laufen in der __lokalen__ Umgebung!
+- Es ist auch möglich, ein eigenes Sprachmodell mit Ollama laufen zu lassen (ein Modell muss mit llama.cpp quantifiziert und in das GGUF-Format konvertiert werden)
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Wie geht das? - Durch Plugin!
+
+# [__Smart Second Brain__](https://github.com/your-papa/obsidian-Smart2Brain)
+![bg right width:300px](./img/smart2brain.png)
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Was kann Smart Second Brain?
+
+- Chat mit dir!
+- Deine Notizen in Obsidian werden von RAG im Chat reflektiert!
+- Du führst quasi ein Selbstgespräch mit dir selbst (deshalb "Second Brain"!)
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Demo
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Fragen?
+
+
