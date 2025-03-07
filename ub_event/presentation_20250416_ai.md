@@ -62,7 +62,7 @@ section h2 {
 <img src="../uni_img/header_rechts.png" class="img_rechts"/>
 </header>
 
-# Wissensmanagement und Mindmapping mit der Gratis-Software Obsidian
+# Practical tools for your studies / Obsidian + Ollama
 <div class="text_white">
 Nobutake Kamiya</div>
 
@@ -77,7 +77,8 @@ Nobutake Kamiya</div>
 <img src="../uni_img/header_rechts.png" class="img_rechts"/>
 </header>
 
-![width:300px](./img/obsidian.png)
+![bg width:300px](../coffee_lectures//img/obsidian.png)
+![bg width:250px](../coffee_lectures//img/ollama.png)
 
 [Link zur offiziellen Seite](https://obsidian.md/)
 
