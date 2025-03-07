@@ -20,7 +20,7 @@ header {
   width: 100%;
   height: 80px;
   position: absolute;
-  left: -1px;
+  left: 0px;
   background: white;
 }
 .header_2nd {
