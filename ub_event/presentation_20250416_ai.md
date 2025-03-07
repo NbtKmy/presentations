@@ -80,39 +80,6 @@ Nobutake Kamiya</div>
 ![bg width:300px](../coffee_lectures//img/obsidian.png)
 ![bg width:250px](../coffee_lectures//img/ollama.png)
 
-[Link zur offiziellen Seite](https://obsidian.md/)
-
----
-
-<header class="header_2nd">
-<img src="../uni_img/header_links.png" height=80% class="img_links"/>
-<img src="../uni_img/header_rechts.png" class="img_rechts"/>
-</header>
-
-## Obsidian? Genz einfach
-... ist ein Wissensmanagementsystem!
-
----
-
-
-<header class="header_2nd">
-<img src="../uni_img/header_links.png" height=80% class="img_links"/>
-<img src="../uni_img/header_rechts.png" class="img_rechts"/>
-</header>
-
-## Obsidian? Mehr Information
-- Kein Open Source Software
-- Aber kostenlos für private, nicht-kommerzielle Nutzung 
-- Lokale Anwendung; Daten/Notizen lokal gespeichert (s. [Manifesto](https://obsidian.md/about))
-
----
-
-<header class="header_2nd">
-<img src="../uni_img/header_links.png" height=80% class="img_links"/>
-<img src="../uni_img/header_rechts.png" class="img_rechts"/>
-</header>
-
-## Demo
 
 
 ---
@@ -122,12 +89,46 @@ Nobutake Kamiya</div>
 <img src="../uni_img/header_rechts.png" class="img_rechts"/>
 </header>
 
-## Pros vs Kons 
-__Pros__
-- Daten und Notizen lokal gespeichert (Deine Daten gehören dir, nicht wo anders!)
-- Schnelle Notizeneingabe mit [Markdown](https://de.wikipedia.org/wiki/Markdown)!
-- non-lineare Gedanken schnell eingeben, visualisieren und vernetzen
-- Zahlreiche Plugins
+## Obsidian?
+... is a knowledge management software!
+[Link to the official site](https://obsidian.md/)
+
+---
+
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.png" class="img_rechts"/>
+</header>
+
+## Obsidian? 
+- Not an open source software
+- But free to the non-commercial, private usage
+- Motto = "your thoughts and ideas belong to you" (see [Manifesto](https://obsidian.md/about))
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.png" class="img_rechts"/>
+</header>
+
+## Ollama? In one sentence
+... a Software, to run LLMs in your local environment
+[link to the official site](https://ollama.com/)
+
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.png" class="img_rechts"/>
+</header>
+
+## Ollama? 
+- LLMs/VLMs are quantized (GGUF format)
+- Language models run in the __local__ environment!
+- It is also possible to run your own language model with Ollama (a model must be quantized with llama.cpp and converted to GGUF format)
 
 ---
 
