@@ -64,7 +64,7 @@ section h2 {
 
 # Practical tools for your studies / Obsidian + Ollama
 <div class="text_white">
-Nobutake Kamiya</div>
+Dr. Nobutake Kamiya</div>
 
 ![width:100px](./img/cc-by.png)
 ![bg width:1300px height:600px](../uni_img/hintergrund_1page.jpg)
@@ -214,6 +214,36 @@ It depends on the performance of your laptop which model you can/should use...
 </header>
 
 ## Configure the plugins!
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.png" class="img_rechts"/>
+</header>
+
+## LocalGPT
+![height:450px](./img/localGPT.png)
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.png" class="img_rechts"/>
+</header>
+
+## Smart Second Brain
+![height:450px](./img/smartSecondBrain.png)
+
+---
+
+## Let's play with local LLM!
+
+1. Create groups in the class
+1. Chose a plugin in Obsidian or simply take Ollama 
+1. Play & discuss how can you use this tool!
+
+
 
 
 
