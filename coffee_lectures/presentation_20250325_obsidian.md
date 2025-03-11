@@ -87,7 +87,7 @@ Nobutake Kamiya</div>
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-## Obsidian? Genz einfach
+## Obsidian? Ganz einfach
 ... ist ein Wissensmanagementsystem!
 [Link zur offiziellen Seite](https://obsidian.md/)
 

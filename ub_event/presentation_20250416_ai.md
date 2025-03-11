@@ -89,7 +89,7 @@ Nobutake Kamiya</div>
 <img src="../uni_img/header_rechts.png" class="img_rechts"/>
 </header>
 
-## Obsidian?
+## Obsidian? In short
 ... is a knowledge management software!
 [Link to the official site](https://obsidian.md/)
 
@@ -113,7 +113,7 @@ Nobutake Kamiya</div>
 <img src="../uni_img/header_rechts.png" class="img_rechts"/>
 </header>
 
-## Ollama? In one sentence
+## Ollama? In a nutshell
 ... a Software, to run LLMs in your local environment
 [link to the official site](https://ollama.com/)
 
@@ -125,7 +125,7 @@ Nobutake Kamiya</div>
 <img src="../uni_img/header_rechts.png" class="img_rechts"/>
 </header>
 
-## Ollama? 
+## Ollama?
 - LLMs/VLMs are quantized (GGUF format)
 - Language models run in the __local__ environment!
 - It is also possible to run your own language model with Ollama (a model must be quantized with llama.cpp and converted to GGUF format)
@@ -137,10 +137,8 @@ Nobutake Kamiya</div>
 <img src="../uni_img/header_rechts.png" class="img_rechts"/>
 </header>
 
-## Pros vs Kons 
-__Kons__
-- Nicht geeignet für Ideen-Teilen
-- Schwerer Einstieg / zu viele Plugins
+## A short demo with Ollama
+
 
 ---
 
@@ -149,7 +147,75 @@ __Kons__
 <img src="../uni_img/header_rechts.png" class="img_rechts"/>
 </header>
 
-## Vielen Dank!
+# How can we use Ollama in Obsidian? - Plugins
+![bg width:1300px height:600px](../uni_img/hintergrund_1page.jpg)
+
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.png" class="img_rechts"/>
+</header>
+
+## Zwo plugins 
+- [LocalGPT](https://github.com/pfrankov/obsidian-local-gpt)
+- [Smart Second Brain](https://github.com/your-papa/obsidian-Smart2Brain)
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.png" class="img_rechts"/>
+</header>
+
+## How to install the plugins?
+
+1. Install Obsidian & Ollama
+1. Pull one model for the general purpose and another model for embedding
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.png" class="img_rechts"/>
+</header>
+
+## How to pull a model in Ollama...
+
+```
+ollama pull [a model name like "llama3.2"]
+````
+
+You can chose a model from this list: 
+https://ollama.com/library
+
+It depends on the performance of your laptop which model you can/should use...
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.png" class="img_rechts"/>
+</header>
+
+## Install "community plugins" in Obsidian
+ 1. Turn off the restriction mode
+ 1. Browse the community plugins
+ 1. Chose the plugins, "AI Providers", "LocalGPT" and "Smart Second Brain" to install
+
+ The plugin "LocalGPT" requires the plugin "AI Providers". Thus you have to install "AI Providers" either.
+
+ ---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.png" class="img_rechts"/>
+</header>
+
+## Configure the plugins!
+
+
 
 
 

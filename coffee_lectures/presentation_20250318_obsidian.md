@@ -144,6 +144,20 @@ Nobutake Kamiya</div>
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
+## Installation
+1. Obsidian und Ollama installieren
+1. Modells in Ollama installieren
+1. Restriction mode ausschalten (Die Community plugins werden zugelassen)
+1. Plugins browsen und die Plugins "AI Provider" und "LocalGPT" auswählen
+1. LocalGPT konfigurieren!
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
 ## Was kann LocalGPT?
 
 Mit Shortcut-Keys kann man folgende Funktionen ausführen:
