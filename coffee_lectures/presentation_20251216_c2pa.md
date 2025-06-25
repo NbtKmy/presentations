@@ -91,8 +91,8 @@ Nobutake Kamiya</div>
 ## Hintergrund - Deepfake & Authentizität in KI-Zeitalter
 
 ![width:400px](./img/fake_exp.png)
+... Ein Beispiel vom [X-Post von @eliothiggins.bsky.social (@EliotHiggins)](https://x.com/EliotHiggins/status/1637927681734987777)
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Making pictures of Trump getting arrested while waiting for Trump&#39;s arrest. <a href="https://t.co/4D2QQfUpLZ">pic.twitter.com/4D2QQfUpLZ</a></p>&mdash; @eliothiggins.bsky.social (@EliotHiggins) <a href="https://twitter.com/EliotHiggins/status/1637927681734987777?ref_src=twsrc%5Etfw">March 20, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 ---
@@ -160,6 +160,9 @@ https://c2pa.org/specifications/specifications/2.0/index.html
 - Einige AI-Tools (ChatGPT, Adobe FireFly usw.) verleihen C2PA-Metadaten an die durch sie generierten Medien
 - Die meisten Kameras und Aufnahmegeräte können nicht die C2PA-Metadaten generieren
 
+### Fazit
+C2PA-Metadaten sind noch nicht verbreitet. Weil viele industrielle Stakeholder wie Adobe, Google, Microsoft, OpenAI usw. und Hardware-Hersteller wie Nikon daran teilnehmen, ist es zu hoffen, dass der Standard sich durchsetzt und so die Authentizität der digitalen Medien mehr sichtbar wird... 
+
 ---
 
 
@@ -194,6 +197,10 @@ https://c2pa.org/specifications/specifications/2.0/index.html
 </header>
 
 ## Demo
+
+Demo-Website:
+https://nbtkmy.github.io/webserve/testCR.html
+
 
 ---
 
