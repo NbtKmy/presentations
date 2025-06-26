@@ -1,7 +1,7 @@
 ---
 marp: true
 paginate: true
-footer: "25. März 2025 / Nobutake Kamiya: Large language models in Obsidian: Smart Second Brain"
+footer: "23. Sept. 2025 / Nobutake Kamiya: NotebookLM als Lernpartner für das Studium"
 
 ---
 <style>
@@ -85,9 +85,38 @@ Nobutake Kamiya</div>
 <img src="../uni_img/header_rechts.svg" class="img_rechts"/>
 </header>
 
-## NotebookLM
+## [NotebookLM](https://notebooklm.google/) in Kürze
 
-[Link zur offiziellen Seite](https://notebooklm.google/)
+- Kostenfreie Webapplikation (...aber, Google-Account notwendig)
+- Es gibt kostenpflichtige "NotebookLM Pro" auch (Hier reden wir nur über kostenfreie Version)
+- Unterschiedliche "Quellen" einlesen und auf dem Basis der Quelleninformation mit LLM Chatten
+- Notizen mit Hilfe des LLM erstellen und sie als Quelle speichern
+- Aus den ausgewählten Quellen ein "podcast interview like" Audio-Datei generieren
+- <span style="color:red;">__Neu__:</span> Notebook kann jetzt mit jemandem geteilt werden 
 
 ---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Wichtiges in Kürze
+- Es sind 3 Nutzungsbedingungen ([Google Workspace](https://workspace.google.com/terms/premier_terms/), [Google Workspace for Education](https://workspace.google.com/terms/education_terms/), [Google-Nutzungsbedingungen](https://policies.google.com/terms)) vorhanden. Sie sind unterschiedlich. Im Weiteren ziehen wir nur Google-Nutzungsbedingungen in Betracht
+- Nutzungsbedingugnen für kostenpflichtige Umgebung [hier](https://support.google.com/notebooklm/answer/16213268?ref_topic=16175214&sjid=1596286602733096536-NC)
+- Model Gemini 2.5 Flash-Lite(?) (Stand: 26. Juni 2025, siehe [hier](https://developers.googleblog.com/en/gemini-2-5-thinking-model-updates/))
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## ... Bitte einmal selber lesen! 
+![width:800px](./img/notebooklm_img2.png)
+(Zuletzt gesichtet am 26.06.2025 [hier](https://support.google.com/notebooklm/answer/16164461?hl=de&ref_topic=16164070&sjid=7309936810068079434-EU))
+
+---
+
 
