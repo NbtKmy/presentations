@@ -1,7 +1,7 @@
 ---
 marp: true
 paginate: true
-footer: "25. März 2025 / Nobutake Kamiya: Large language models in Obsidian: Smart Second Brain"
+footer: "16. Dez. 2025 / Nobutake Kamiya: Wahrheit oder Fälschung? Wie C2PA Licht ins Dunkel bringt"
 
 ---
 <style>
