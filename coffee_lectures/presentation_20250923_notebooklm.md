@@ -119,4 +119,38 @@ Nobutake Kamiya</div>
 
 ---
 
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Was kann NotebookLM?
+
+- Quelle zusammenfassen
+- Chatten mit LLM mit Quellen-Wissen
+- Notizen erstellen bzw. Notizen LLM erstellen lassen
+- Podcast-artiges Gespräch generieren
+- Ein Notebook teilen
+- usw...
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Demo
+
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Vielen Dank!
+
+
 
