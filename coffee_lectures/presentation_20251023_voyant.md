@@ -95,6 +95,18 @@ Nobutake Kamiya</div>
 - Die App kann nicht nur für Englisch, sondern auch für weitere Sprachen verwendet werden
 
 ---
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Was bietet Voyant tools an?
+- [Viele Tools](https://voyant-tools.org/docs/tutorial-tools_.html) für Textanalyse
+- Einfacher Einstieg für Text-Visualisierung
+- [Guides](https://voyant-tools.org/docs/tutorial-guides.html) vorhanden
+
+
+---
 
 <header class="header_2nd">
 <img src="../uni_img/header_links.png" height=80% class="img_links"/>
@@ -121,7 +133,38 @@ Nobutake Kamiya</div>
 
 ---
 
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
 ## Beispieltexte
+
 - [Friedrich II./ Über die deutsche Literatur. 1780](https://www.deutschestextarchiv.de/book/view/friedrich_literatur_1780) - TEI/XML
 - [長崎原爆犠牲者慰霊平和祈念式典挨拶 (Ansprache anlässlich der Gedenkfeier für die Opfer der Atombombe von Nagasaki und für den Frieden / Japanisch)](https://www.kantei.go.jp/jp/103/statement/2025/0809nagasaki.html) - HTML
-- 
+- [Heine, Heinrich: Deutschland. Ein Wintermährchen. Hamburg, 1844.](https://www.deutschestextarchiv.de/book/show/heine_wintermaehrchen_1844), [Heine, Heinrich: Reisebilder. Bd. 1. Hamburg, 1826.](https://www.deutschestextarchiv.de/book/show/heine_reisebilder01_1826) und [Heine, Heinrich: Reisebilder. Bd. 2. Hamburg, 1827.](https://www.deutschestextarchiv.de/book/show/heine_reisebilder02_1827) - Plain Text (Mehrfach)
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Tools anwenden
+- Stoppwords ansehen und editieren
+- Cirrus (Word Cloud)
+- Trends
+- Bubble lines
+- DreamScape
+
+---
+
+<header class="header_2nd">
+<img src="../uni_img/header_links.png" height=80% class="img_links"/>
+<img src="../uni_img/header_rechts.svg" class="img_rechts"/>
+</header>
+
+## Vielen Dank!
+
