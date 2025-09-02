@@ -153,7 +153,7 @@ Nobutake Kamiya</div>
 </header>
 
 ## Tools anwenden
-- Stoppwords ansehen und editieren
+- Stoppwords und [Categories](https://inquirer.sites.fas.harvard.edu/homecat.htm) ansehen und editieren
 - Cirrus (Word Cloud)
 - Trends
 - Bubble lines
