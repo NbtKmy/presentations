@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Informationskompetenz für die Japanologie</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500;700&family=Noto+Sans+JP:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+	<div class="header-inner">
+		<div class="lang-switch" role="group" aria-label="Language">
+			<button type="button" data-lang-btn="ja">日本語</button>
+			<button type="button" data-lang-btn="de">Deutsch</button>
+			<button type="button" data-lang-btn="en">English</button>
+		</div>
+		<h1 id="site-title"></h1>
+		<p class="subtitle" id="site-intro"></p>
+	</div>
+</header>
+
+<main>
+	<section class="menu-category" data-category="starters">
+		<h2><span class="icon" aria-hidden="true"></span><span class="cat-title"></span></h2>
+		<p class="category-subtitle"></p>
+		<div class="card-grid" data-grid="starters"></div>
+	</section>
+
+	<section class="menu-category" data-category="mains">
+		<h2><span class="icon" aria-hidden="true"></span><span class="cat-title"></span></h2>
+		<p class="category-subtitle"></p>
+		<div class="card-grid" data-grid="mains"></div>
+	</section>
+
+	<section class="menu-category" data-category="dessert">
+		<h2><span class="icon" aria-hidden="true"></span><span class="cat-title"></span></h2>
+		<p class="category-subtitle"></p>
+		<div class="card-grid" data-grid="dessert"></div>
+	</section>
+</main>
+
+<div class="order-tray">
+	<span id="order-count"></span>
+	<button type="button" id="order-button" disabled></button>
+</div>
+
+<footer>
+	<p id="footer-note"></p>
+	<p class="contact">Nobutake Kamiya · Universitätsbibliothek Zürich · <a href="mailto:nobutake.kamiya@ub.uzh.ch">nobutake.kamiya@ub.uzh.ch</a></p>
+</footer>
+
+<noscript>This page requires JavaScript. / Diese Seite benötigt JavaScript. / このページの表示にはJavaScriptが必要です。</noscript>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
