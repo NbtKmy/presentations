@@ -8,6 +8,16 @@ ja: データベース
 de: Datenbanken
 en: Databases
 
+## library-catalogue
+ja: 図書館カタログ
+de: Bibliothekskatalog
+en: library catalogue
+
+## e-resouces
+ja: 電子リソース
+de: E-Resourcen
+en: E-resouces
+
 ## ill
 ja: 相互貸借
 de: Fernleihe
@@ -42,3 +52,8 @@ en: Digital editing & imaging
 ja: AI活用
 de: KI-Einsatz
 en: AI applications
+
+## programming
+ja: プログラミング
+de: Programmieren
+en: Programming

@@ -18,6 +18,22 @@ const THEMES = [
     }
   },
   {
+    "key": "library-catalogue",
+    "title": {
+      "ja": "図書館カタログ",
+      "de": "Bibliothekskatalog",
+      "en": "library catalogue"
+    }
+  },
+  {
+    "key": "e-resouces",
+    "title": {
+      "ja": "電子リソース",
+      "de": "E-Resourcen",
+      "en": "E-resouces"
+    }
+  },
+  {
     "key": "ill",
     "title": {
       "ja": "相互貸借",
@@ -77,50 +93,54 @@ const THEMES = [
 
 const MENU_ITEMS = [
   {
-    "id": "starters-catalog",
+    "id": "starters-catalogue",
     "category": "starters",
-    "tags": [],
+    "tags": [
+      "library-catalogue"
+    ],
     "title": {
       "ja": "図書館カタログで日本語文献を探す",
-      "de": "Japanische Literatur im Katalog finden",
-      "en": "Finding Japanese literature in the catalog"
+      "de": "Japanische Literatur im Bibliothekskatalog finden",
+      "en": "Finding Japanese literature in the catalogue"
     },
     "desc": {
-      "ja": "swisscoveryで日本語資料（漢字・かな入力やローマ字表記のゆれ）を的確に検索できるようになります。",
-      "de": "Sie können in swisscovery gezielt nach japanischsprachiger Literatur suchen – auch bei Eingabe in Kanji/Kana oder unterschiedlicher Romanisierung.",
-      "en": "You'll be able to search swisscovery effectively for Japanese-language materials, including kanji/kana input and romanization variants."
+      "ja": "図書館のカタログ「swisscovery」で図書館にある日本語資料（漢字・かな入力やローマ字表記のゆれ）を的確に検索できるようになります。",
+      "de": "Sie können in swisscovery, unserem Bibliothekskatalog gezielt nach japanischsprachiger Literatur suchen – auch bei Eingabe in Kanji/Kana oder unterschiedlicher Romanisierung.",
+      "en": "You'll be able to search swisscovery, our library catalogue, effectively for Japanese-language materials, including kanji/kana input and romanization variants."
     }
   },
   {
     "id": "starters-cdi",
     "category": "starters",
     "tags": [
-      "databases"
+      "library-catalogue"
     ],
     "title": {
-      "ja": "PrimoVEのCDIとは",
-      "de": "Was ist der CDI in Primo VE?",
-      "en": "What is the CDI in Primo VE?"
+      "ja": "SwisscoveryのCDIとは",
+      "de": "Was ist der CDI in Swisscovery?",
+      "en": "What is the CDI in Swisscovery?"
     },
     "desc": {
-      "ja": "Central Discovery Index（CDI）が何を検索対象にしていて何が含まれないかを理解し、検索結果を正しく解釈できるようになります。",
-      "de": "Sie verstehen, was der Central Discovery Index (CDI) abdeckt – und was nicht – und können Suchergebnisse richtig einordnen.",
-      "en": "You'll understand what the Central Discovery Index (CDI) does and doesn't cover, so you can interpret search results correctly."
+      "ja": "図書館カタログの中にあるCentral Discovery Index（CDI）が何を検索対象にしていて何が含まれないかを理解し、検索結果を正しく解釈できるようになります。",
+      "de": "Sie verstehen, was der Central Discovery Index (CDI) in unserem Bibliothekskatalog abdeckt – und was nicht – und können Suchergebnisse richtig einordnen.",
+      "en": "You'll understand what the Central Discovery Index (CDI) in our library catalogue does and doesn't cover, so you can interpret search results correctly."
     }
   },
   {
     "id": "starters-ebooks",
     "category": "starters",
-    "tags": [],
+    "tags": [
+      "e-resouces"
+    ],
     "title": {
-      "ja": "日本語・英語の電子書籍の使い方",
-      "de": "Japanische und englische E-Books nutzen",
-      "en": "Using Japanese and English e-books"
+      "ja": "日本語の電子書籍の使い方",
+      "de": "Japanische E-Books nutzen",
+      "en": "Using Japanese e-books"
     },
     "desc": {
-      "ja": "大学が契約している日本語・英語の電子書籍プラットフォームへのアクセス方法と、閲覧・ダウンロードの際の注意点がわかります。",
-      "de": "Sie kennen die Zugangswege zu den lizenzierten E-Book-Plattformen (JA/EN) und wissen, worauf beim Lesen und Herunterladen zu achten ist.",
-      "en": "You'll know how to access the library's licensed Japanese and English e-book platforms and what to watch out for when reading or downloading."
+      "ja": "大学が契約している日本語の電子書籍プラットフォームへのアクセス方法と、閲覧・ダウンロードの際の注意点がわかります。ここでは主に日本語電子書籍プラットフォームKinodenを扱います。",
+      "de": "Sie kennen die Zugangswege zu den lizenzierten E-Book-Plattformen (JA) und wissen, worauf beim Lesen und Herunterladen zu achten ist. Hier wird hauptsächlich die japanische E-Book-Plattform \"Kinoden\" behandelt.",
+      "en": "You'll know how to access the library's licensed Japanese and English e-book platforms and what to watch out for when reading or downloading. Here we mainly handle Japanese e-book platform \"Kinoden\"."
     }
   },
   {
@@ -130,7 +150,7 @@ const MENU_ITEMS = [
       "databases"
     ],
     "title": {
-      "ja": "日本学分野のデータベース紹介",
+      "ja": "日本学分野の有料データベース紹介",
       "de": "Datenbanken für die Japanologie",
       "en": "Databases for Japanese Studies"
     },
@@ -169,9 +189,9 @@ const MENU_ITEMS = [
       "en": "The \"Blauer Leihverkehr\""
     },
     "desc": {
-      "ja": "図書館間資料融通制度「Blauer Leihverkehr」の仕組みと、通常のILLとの違い・使い分けが理解できます。",
-      "de": "Sie verstehen, wie der Blaue Leihverkehr funktioniert und wann er sich gegenüber der klassischen Fernleihe anbietet.",
-      "en": "You'll understand how this inter-library lending scheme works and when it's a better option than standard ILL."
+      "ja": "ベルリン国立図書館東アジア部門との提携によって実現した図書館間資料融通制度「Blauer Leihverkehr」の仕組みと、通常のILLとの違い・使い分けが理解できます。また、どのような本がベルリン国立図書館東アジア部門にあるのか調べる方法もわかります。",
+      "de": "Sie verstehen, wie der Blaue Leihverkehr funktioniert, der durch die Partnerschaft zwischen der Ostasien-Abteilung der Staatsbibliothek zu Berlin und uns zustande kommt. Darüber hinaus lernen Sie, den Bestand der Staatsbibliothek zu recherchieren.",
+      "en": "You understand how the \"Blauer Leihverkehr\" works, which comes about through the partnership between the East Asia Department of the State Library in Berlin and us. Furthermore, you learn to research the holdings of the State Library."
     }
   },
   {
@@ -249,9 +269,9 @@ const MENU_ITEMS = [
       "citation-management"
     ],
     "title": {
-      "ja": "Zoteroの使い方",
-      "de": "Arbeiten mit Zotero",
-      "en": "Using Zotero"
+      "ja": "Zoteroの使い方 - Basic",
+      "de": "Arbeiten mit Zotero - Basic",
+      "en": "Using Zotero - Basic"
     },
     "desc": {
       "ja": "Zoteroで日本語文献を含む文献情報を収集・整理し、レポートや論文の引用・参考文献リストを自動生成できるようになります。",
@@ -260,10 +280,62 @@ const MENU_ITEMS = [
     }
   },
   {
+    "id": "mains-japanknowledge",
+    "category": "mains",
+    "tags": [
+      "e-resouces"
+    ],
+    "title": {
+      "ja": "ジャパンナレッジの使い方",
+      "de": "JapanKnowledge nutzen",
+      "en": "Using JapanKnowledge"
+    },
+    "desc": {
+      "ja": "大学が契約しているプラットフォーム「ジャパンナレッジ」へのアクセス方法・コンテンツとその使い方がわかります。ジャパンナレッジは「日本国語大辞典」「国史大辞典」といった日本研究に欠かせない辞書コンテンツの他、「東洋経済アーカイブズ」や「群書類従」といった電子コンテンツも見られます。",
+      "de": "Sie werden die Zugangs- und Nutzungsmöglichkeiten zur Plattform \"Japan Knowledge\" kennenlernen, die die UB Zürich abonniert. JapanKnowledge enthält neben unverzichtbaren Wörterbüchern wie \"Nihon kokugo daijiten\" und \"Kokushi daijiten\", auch elektronische Inhalte wie \"Tōyō keizai archives\" oder \"Gunsho ruijū\".",
+      "en": "You will get to know the access and usage possibilities for the platform \"Japan Knowledge\", which is subscribed by the UB Zurich. JapanKnowledge contains, in addition to indispensable dictionaries such as \"Nihon kokugo daijiten\" and \"Kokushi daijiten\", also electronic contents like \"Tōyō keizai archives\" or \"Gunsho ruijū\"."
+    }
+  },
+  {
+    "id": "mains-zotero2",
+    "category": "mains",
+    "tags": [
+      "citation-management"
+    ],
+    "title": {
+      "ja": "Zoteroの使い方 - Intermediate",
+      "de": "Arbeiten mit Zotero - Intermediate",
+      "en": "Using Zotero - Intermediate"
+    },
+    "desc": {
+      "ja": "Zoteroを使う際に便利なプラグインの紹介と、それらをどのようにインストールするのか紹介します。",
+      "de": "Wir lernen nützliche Plugins kennen, die sich mit Zotero kombinieren lassen. Hier zeigen wir, wie man sie einrichtet.",
+      "en": "We learn about useful plugins that can be combined with Zotero. Here we show how to set them up."
+    }
+  },
+  {
+    "id": "mains-zotero3",
+    "category": "mains",
+    "tags": [
+      "citation-management"
+    ],
+    "title": {
+      "ja": "Zoteroの使い方 - Advanced",
+      "de": "Arbeiten mit Zotero - Advanced",
+      "en": "Using Zotero - Advanced"
+    },
+    "desc": {
+      "ja": "Zoteroのグループライブラリーをどうやって有効活用できるか、いくつかの例を参考に考えます。",
+      "de": "Wie kann man Zoteros \"Group Library\" effektiv nutzen? Wir sehen konkrete Nutzungsbeispiele der \"Group Library\" und überlegen gemeinsam, wie sie für eigene Projekte oder Unterrichtssettings eingesetzt werden kann",
+      "en": "How can you effectively use Zotero's \"Group Library\"? We look at concrete usage examples of the \"Group Library\" and think together about how it can be used for your own projects or teaching settings."
+    }
+  },
+  {
     "id": "dessert-qgis",
     "category": "dessert",
     "tags": [
-      "gis-mapping"
+      "gis-mapping",
+      "e-resouces"
     ],
     "title": {
       "ja": "QGISで統計資料を地図化する",

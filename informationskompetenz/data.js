@@ -75,11 +75,11 @@ const CATEGORIES = [
   {
     key: "mains",
     icon: "🍚",
-    title: { ja: "主食", de: "Hauptgang", en: "Mains" },
+    title: { ja: "メインディッシュ", de: "Hauptgang", en: "Mains" },
     subtitle: {
-      ja: "資料とデータを深く探す",
-      de: "Ressourcen & Daten vertiefen",
-      en: "Deeper resource & data discovery",
+      ja: "資料とデータを深く探す・集めた知識を管理する",
+      de: "Ressourcen & Daten vertiefen und Wissensmanagement",
+      en: "Deeper resource & data discovery, and knowledge management",
     },
   },
   {

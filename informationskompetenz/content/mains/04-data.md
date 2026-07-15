@@ -1,4 +1,4 @@
-tags: rdm
+tags: e-resouces
 
 ## ja
 日本学関連データの探し方
