@@ -20,26 +20,38 @@
 		</div>
 		<h1 id="site-title"></h1>
 		<p class="subtitle" id="site-intro"></p>
+
+		<div class="filter-bar">
+			<input type="search" id="search-input">
+			<details id="theme-facet">
+				<summary id="facet-summary"></summary>
+				<div class="facet-options" id="facet-options"></div>
+			</details>
+		</div>
 	</div>
 </header>
 
 <main>
+	<p id="no-results" hidden></p>
 	<section class="menu-category" data-category="starters">
 		<h2><span class="icon" aria-hidden="true"></span><span class="cat-title"></span></h2>
 		<p class="category-subtitle"></p>
 		<div class="card-grid" data-grid="starters"></div>
+		<button type="button" class="show-more-toggle" data-category="starters" hidden></button>
 	</section>
 
 	<section class="menu-category" data-category="mains">
 		<h2><span class="icon" aria-hidden="true"></span><span class="cat-title"></span></h2>
 		<p class="category-subtitle"></p>
 		<div class="card-grid" data-grid="mains"></div>
+		<button type="button" class="show-more-toggle" data-category="mains" hidden></button>
 	</section>
 
 	<section class="menu-category" data-category="dessert">
 		<h2><span class="icon" aria-hidden="true"></span><span class="cat-title"></span></h2>
 		<p class="category-subtitle"></p>
 		<div class="card-grid" data-grid="dessert"></div>
+		<button type="button" class="show-more-toggle" data-category="dessert" hidden></button>
 	</section>
 </main>
 
@@ -56,6 +68,7 @@
 <noscript>This page requires JavaScript. / Diese Seite benötigt JavaScript. / このページの表示にはJavaScriptが必要です。</noscript>
 
 <script src="data.js"></script>
+<script src="content.generated.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
