@@ -1,4 +1,4 @@
-tags: e-resouces
+tags: e-resources
 
 ## ja
 ジャパンナレッジの使い方
@@ -13,4 +13,4 @@ Sie werden die Zugangs- und Nutzungsmöglichkeiten zur Plattform "Japan Knowledg
 ## en
 Using JapanKnowledge
 
-You will get to know the access and usage possibilities for the platform "Japan Knowledge", which is subscribed by the UB Zurich. JapanKnowledge contains, in addition to indispensable dictionaries such as "Nihon kokugo daijiten" and "Kokushi daijiten", also electronic contents like "Tōyō keizai archives" or "Gunsho ruijū".
+You'll get to know the access and usage possibilities for the platform "Japan Knowledge", which is subscribed by the UB Zurich. JapanKnowledge contains, in addition to indispensable dictionaries such as "Nihon kokugo daijiten" and "Kokushi daijiten", also electronic contents like "Tōyō keizai archives" or "Gunsho ruijū".

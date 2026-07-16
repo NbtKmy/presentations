@@ -1,4 +1,4 @@
-tags: e-resouces
+tags: e-resources
 
 ## ja
 日本学関連データの探し方

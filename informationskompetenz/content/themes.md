@@ -3,6 +3,11 @@ ja: オープンアクセス
 de: Open Access
 en: Open access
 
+## literature-search
+ja: 文献検索
+de: Literatursuche
+en: Literature search
+
 ## databases
 ja: データベース
 de: Datenbanken
@@ -11,12 +16,12 @@ en: Databases
 ## library-catalogue
 ja: 図書館カタログ
 de: Bibliothekskatalog
-en: library catalogue
+en: Library catalogue
 
-## e-resouces
+## e-resources
 ja: 電子リソース
 de: E-Resourcen
-en: E-resouces
+en: E-resources
 
 ## ill
 ja: 相互貸借

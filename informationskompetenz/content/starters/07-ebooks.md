@@ -1,4 +1,4 @@
-tags: e-resouces
+tags: e-resources
 
 ## ja
 日本語の電子書籍の使い方

@@ -13,4 +13,4 @@ Sie verstehen, wie der Blaue Leihverkehr funktioniert, der durch die Partnerscha
 ## en
 The "Blauer Leihverkehr"
 
-You understand how the "Blauer Leihverkehr" works, which comes about through the partnership between the East Asia Department of the State Library in Berlin and us. Furthermore, you learn to research the holdings of the State Library.
+You'll understand how the "Blauer Leihverkehr" works, which comes about through the partnership between the East Asia Department of the State Library in Berlin and us. Furthermore, you'll learn to research the holdings of the State Library.

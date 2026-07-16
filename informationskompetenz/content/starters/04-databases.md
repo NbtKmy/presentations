@@ -1,4 +1,4 @@
-tags: databases, e-resouces
+tags: databases, e-resources
 
 ## ja
 日本学分野の有料データベース紹介

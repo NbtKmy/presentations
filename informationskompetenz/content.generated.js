@@ -10,6 +10,14 @@ const THEMES = [
     }
   },
   {
+    "key": "literature-search",
+    "title": {
+      "ja": "文献検索",
+      "de": "Literatursuche",
+      "en": "Literature search"
+    }
+  },
+  {
     "key": "databases",
     "title": {
       "ja": "データベース",
@@ -22,15 +30,15 @@ const THEMES = [
     "title": {
       "ja": "図書館カタログ",
       "de": "Bibliothekskatalog",
-      "en": "library catalogue"
+      "en": "Library catalogue"
     }
   },
   {
-    "key": "e-resouces",
+    "key": "e-resources",
     "title": {
       "ja": "電子リソース",
       "de": "E-Resourcen",
-      "en": "E-resouces"
+      "en": "E-resources"
     }
   },
   {
@@ -88,10 +96,33 @@ const THEMES = [
       "de": "KI-Einsatz",
       "en": "AI applications"
     }
+  },
+  {
+    "key": "programming",
+    "title": {
+      "ja": "プログラミング",
+      "de": "Programmieren",
+      "en": "Programming"
+    }
   }
 ];
 
 const MENU_ITEMS = [
+  {
+    "id": "starters-library-introduction",
+    "category": "starters",
+    "tags": [],
+    "title": {
+      "ja": "図書館紹介",
+      "de": "Vorstellung der Bibliothek",
+      "en": "Library introduction"
+    },
+    "desc": {
+      "ja": "日本学に重要な文献やリソースを提供する図書館を紹介します。図書館がどこにあるのか、日本学に関連する書籍はどこにあるのか実際に見ることによって図書館を身近に感じてもらえます。",
+      "de": "Wir stellen Ihnen Bibliotheken vor, die wichtige Literatur und Ressourcen für Japanologie bereitstellen. Durch eine persönliche Besichtigung können Sie sehen, wo sich die Bibliothek befindet und wo sich Bücher zu Japanologie finden lassen.",
+      "en": "We present you with libraries that provide important literature and resources for Japanese studies. Through a personal visit, you can see where the library is located and where books on Japanese studies can be found."
+    }
+  },
   {
     "id": "starters-catalogue",
     "category": "starters",
@@ -127,27 +158,11 @@ const MENU_ITEMS = [
     }
   },
   {
-    "id": "starters-ebooks",
-    "category": "starters",
-    "tags": [
-      "e-resouces"
-    ],
-    "title": {
-      "ja": "日本語の電子書籍の使い方",
-      "de": "Japanische E-Books nutzen",
-      "en": "Using Japanese e-books"
-    },
-    "desc": {
-      "ja": "大学が契約している日本語の電子書籍プラットフォームへのアクセス方法と、閲覧・ダウンロードの際の注意点がわかります。ここでは主に日本語電子書籍プラットフォームKinodenを扱います。",
-      "de": "Sie kennen die Zugangswege zu den lizenzierten E-Book-Plattformen (JA) und wissen, worauf beim Lesen und Herunterladen zu achten ist. Hier wird hauptsächlich die japanische E-Book-Plattform \"Kinoden\" behandelt.",
-      "en": "You'll know how to access the library's licensed Japanese and English e-book platforms and what to watch out for when reading or downloading. Here we mainly handle Japanese e-book platform \"Kinoden\"."
-    }
-  },
-  {
     "id": "starters-databases",
     "category": "starters",
     "tags": [
-      "databases"
+      "databases",
+      "e-resources"
     ],
     "title": {
       "ja": "日本学分野の有料データベース紹介",
@@ -191,7 +206,24 @@ const MENU_ITEMS = [
     "desc": {
       "ja": "ベルリン国立図書館東アジア部門との提携によって実現した図書館間資料融通制度「Blauer Leihverkehr」の仕組みと、通常のILLとの違い・使い分けが理解できます。また、どのような本がベルリン国立図書館東アジア部門にあるのか調べる方法もわかります。",
       "de": "Sie verstehen, wie der Blaue Leihverkehr funktioniert, der durch die Partnerschaft zwischen der Ostasien-Abteilung der Staatsbibliothek zu Berlin und uns zustande kommt. Darüber hinaus lernen Sie, den Bestand der Staatsbibliothek zu recherchieren.",
-      "en": "You understand how the \"Blauer Leihverkehr\" works, which comes about through the partnership between the East Asia Department of the State Library in Berlin and us. Furthermore, you learn to research the holdings of the State Library."
+      "en": "You'll understand how the \"Blauer Leihverkehr\" works, which comes about through the partnership between the East Asia Department of the State Library in Berlin and us. Furthermore, you'll learn to research the holdings of the State Library."
+    }
+  },
+  {
+    "id": "starters-ebooks",
+    "category": "starters",
+    "tags": [
+      "e-resources"
+    ],
+    "title": {
+      "ja": "日本語の電子書籍の使い方",
+      "de": "Japanische E-Books nutzen",
+      "en": "Using Japanese e-books"
+    },
+    "desc": {
+      "ja": "大学が契約している日本語の電子書籍プラットフォームへのアクセス方法と、閲覧・ダウンロードの際の注意点がわかります。ここでは主に日本語電子書籍プラットフォームKinodenを扱います。",
+      "de": "Sie kennen die Zugangswege zu den lizenzierten E-Book-Plattformen (JA) und wissen, worauf beim Lesen und Herunterladen zu achten ist. Hier wird hauptsächlich die japanische E-Book-Plattform \"Kinoden\" behandelt.",
+      "en": "You'll know how to access the library's licensed Japanese and English e-book platforms and what to watch out for when reading or downloading. Here we mainly handle Japanese e-book platform \"Kinoden\"."
     }
   },
   {
@@ -212,20 +244,106 @@ const MENU_ITEMS = [
     }
   },
   {
-    "id": "mains-open-access",
+    "id": "mains-article-search",
     "category": "mains",
     "tags": [
-      "open-access"
+      "open-access",
+      "literature-search"
     ],
     "title": {
-      "ja": "オープンアクセスサービス",
-      "de": "Open-Access-Angebote",
-      "en": "Open access resources"
+      "ja": "日本語の学術論文検索",
+      "de": "Japanische wissenschaftliche Artikel finden",
+      "en": "Finding Japanese scientific articles"
     },
     "desc": {
       "ja": "J-STAGEやCiNii、機関リポジトリなど日本語学術情報のオープンアクセス基盤を知り、無料で入手できる文献の探し方がわかります。",
       "de": "Sie lernen Open-Access-Plattformen (J-STAGE, CiNii, institutionelle Repositorien u. a.) kennen und wissen, wie Sie frei zugängliche Literatur finden.",
       "en": "You'll get to know open-access platforms (J-STAGE, CiNii, institutional repositories, etc.) and how to find freely available literature."
+    }
+  },
+  {
+    "id": "mains-data",
+    "category": "mains",
+    "tags": [
+      "e-resources"
+    ],
+    "title": {
+      "ja": "日本学関連データの探し方",
+      "de": "Daten für die Japanforschung finden",
+      "en": "Finding data for Japanese Studies"
+    },
+    "desc": {
+      "ja": "日本研究に使えるオープンデータ・統計データ（政府統計、歴史統計、地理空間データなど）の探索方法がわかります。",
+      "de": "Sie wissen, wie Sie offene Daten und Statistiken für die Japanforschung (amtliche Statistiken, historische Daten, Geodaten u. a.) recherchieren.",
+      "en": "You'll learn how to locate open data and statistics relevant to Japanese Studies (official statistics, historical data, geospatial data, etc.)."
+    }
+  },
+  {
+    "id": "mains-presse-search",
+    "category": "mains",
+    "tags": [
+      "literature-search"
+    ],
+    "title": {
+      "ja": "日本語新聞記事検索",
+      "de": "Japanische Zeitungsartikel suchen",
+      "en": "Japanese newspaper article search"
+    },
+    "desc": {
+      "ja": "図書館が契約している有料新聞記事データベースのほかに、無料で使える新聞記事データベースもいくつか紹介します。",
+      "de": "Neben unserer kostenpflichtigen Zeitungsdatenbank lernen wir auch mehrere kostenlose Online-Zeitungsarchive kennen.",
+      "en": "In addition to our paid newspaper database, we also introduce several free online newspaper archives."
+    }
+  },
+  {
+    "id": "mains-historical-materials",
+    "category": "mains",
+    "tags": [
+      "literature-search"
+    ],
+    "title": {
+      "ja": "古典籍・歴史資料を探す",
+      "de": "Klassische Werke und historische Dokumente suchen",
+      "en": "Finding classic works and historical documents"
+    },
+    "desc": {
+      "ja": "国書データベースやNDLデジタルコレクションなど、古典籍のデジタル資料を公開しているデータベースを紹介します。海外から無料で閲覧できる資料が数多くあり、また古典籍資料の名称なども調べられる、ということを具体例で学びます。",
+      "de": "Wir stellen Datenbanken vor, die digitale Materialien klassischer Werke enthalten, wie zum Beispiel \"Kokusho dētabēsu\" oder \"NDL Digital Collection\". Es gibt viele kostenlose Materialien, auf die man vom Ausland zugreifen kann, und man kann auch damit recherchieren, wie die Werke ausgesprochen werden.",
+      "en": "We present databases that contain digital materials of classic works, such as \"Kokusho dētabēsu\" or \"NDL Digital Collection\". There are many free materials that can be accessed from abroad, and you can also research how the sources are pronounced."
+    }
+  },
+  {
+    "id": "mains-japanknowledge",
+    "category": "mains",
+    "tags": [
+      "e-resources"
+    ],
+    "title": {
+      "ja": "ジャパンナレッジの使い方",
+      "de": "JapanKnowledge nutzen",
+      "en": "Using JapanKnowledge"
+    },
+    "desc": {
+      "ja": "大学が契約しているプラットフォーム「ジャパンナレッジ」へのアクセス方法・コンテンツとその使い方がわかります。ジャパンナレッジは「日本国語大辞典」「国史大辞典」といった日本研究に欠かせない辞書コンテンツの他、「東洋経済アーカイブズ」や「群書類従」といった電子コンテンツも見られます。",
+      "de": "Sie werden die Zugangs- und Nutzungsmöglichkeiten zur Plattform \"Japan Knowledge\" kennenlernen, die die UB Zürich abonniert. JapanKnowledge enthält neben unverzichtbaren Wörterbüchern wie \"Nihon kokugo daijiten\" und \"Kokushi daijiten\", auch elektronische Inhalte wie \"Tōyō keizai archives\" oder \"Gunsho ruijū\".",
+      "en": "You'll get to know the access and usage possibilities for the platform \"Japan Knowledge\", which is subscribed by the UB Zurich. JapanKnowledge contains, in addition to indispensable dictionaries such as \"Nihon kokugo daijiten\" and \"Kokushi daijiten\", also electronic contents like \"Tōyō keizai archives\" or \"Gunsho ruijū\"."
+    }
+  },
+  {
+    "id": "mains-oa-service",
+    "category": "mains",
+    "tags": [
+      "open-access"
+    ],
+    "title": {
+      "ja": "オープンアクセス・サービス",
+      "de": "Open Access Services",
+      "en": "Open access services"
+    },
+    "desc": {
+      "ja": "オープンアクセスに関する基礎的な情報に加えて、図書館が提供しているオープンアクセス・サービスを紹介します。",
+      "de": "Wir lernen die Grundlagen von Open Access kennen. Die Bibliothek bietet Unterstützung bei Open Access an und stellt ihre Angebote vor.",
+      "en": "This session not only provides basic information on Open Access but also introduces the open access services offered by the library."
     }
   },
   {
@@ -246,23 +364,6 @@ const MENU_ITEMS = [
     }
   },
   {
-    "id": "mains-data",
-    "category": "mains",
-    "tags": [
-      "rdm"
-    ],
-    "title": {
-      "ja": "日本学関連データの探し方",
-      "de": "Daten für die Japanforschung finden",
-      "en": "Finding data for Japanese Studies"
-    },
-    "desc": {
-      "ja": "日本研究に使えるオープンデータ・統計データ（政府統計、歴史統計、地理空間データなど）の探索方法がわかります。",
-      "de": "Sie wissen, wie Sie offene Daten und Statistiken für die Japanforschung (amtliche Statistiken, historische Daten, Geodaten u. a.) recherchieren.",
-      "en": "You'll learn how to locate open data and statistics relevant to Japanese Studies (official statistics, historical data, geospatial data, etc.)."
-    }
-  },
-  {
     "id": "mains-zotero",
     "category": "mains",
     "tags": [
@@ -277,23 +378,6 @@ const MENU_ITEMS = [
       "ja": "Zoteroで日本語文献を含む文献情報を収集・整理し、レポートや論文の引用・参考文献リストを自動生成できるようになります。",
       "de": "Sie können mit Zotero Literatur – auch japanischsprachige Titel – sammeln, organisieren und automatisch in Zitationen und Literaturverzeichnisse einbinden.",
       "en": "You'll be able to collect and organize references — including Japanese-language titles — in Zotero and auto-generate citations and bibliographies."
-    }
-  },
-  {
-    "id": "mains-japanknowledge",
-    "category": "mains",
-    "tags": [
-      "e-resouces"
-    ],
-    "title": {
-      "ja": "ジャパンナレッジの使い方",
-      "de": "JapanKnowledge nutzen",
-      "en": "Using JapanKnowledge"
-    },
-    "desc": {
-      "ja": "大学が契約しているプラットフォーム「ジャパンナレッジ」へのアクセス方法・コンテンツとその使い方がわかります。ジャパンナレッジは「日本国語大辞典」「国史大辞典」といった日本研究に欠かせない辞書コンテンツの他、「東洋経済アーカイブズ」や「群書類従」といった電子コンテンツも見られます。",
-      "de": "Sie werden die Zugangs- und Nutzungsmöglichkeiten zur Plattform \"Japan Knowledge\" kennenlernen, die die UB Zürich abonniert. JapanKnowledge enthält neben unverzichtbaren Wörterbüchern wie \"Nihon kokugo daijiten\" und \"Kokushi daijiten\", auch elektronische Inhalte wie \"Tōyō keizai archives\" oder \"Gunsho ruijū\".",
-      "en": "You will get to know the access and usage possibilities for the platform \"Japan Knowledge\", which is subscribed by the UB Zurich. JapanKnowledge contains, in addition to indispensable dictionaries such as \"Nihon kokugo daijiten\" and \"Kokushi daijiten\", also electronic contents like \"Tōyō keizai archives\" or \"Gunsho ruijū\"."
     }
   },
   {
@@ -335,7 +419,7 @@ const MENU_ITEMS = [
     "category": "dessert",
     "tags": [
       "gis-mapping",
-      "e-resouces"
+      "e-resources"
     ],
     "title": {
       "ja": "QGISで統計資料を地図化する",
@@ -349,20 +433,21 @@ const MENU_ITEMS = [
     }
   },
   {
-    "id": "dessert-network",
+    "id": "dessert-georeference",
     "category": "dessert",
     "tags": [
-      "text-analysis"
+      "gis-mapping",
+      "e-resources"
     ],
     "title": {
-      "ja": "ネットワーク分析：関係の近さ・遠さを計算する",
-      "de": "Netzwerkanalyse: Nähe & Distanz berechnen",
-      "en": "Network analysis: measuring closeness"
+      "ja": "ジオレファレンス",
+      "de": "Georeferenzierung",
+      "en": "Georeferencing"
     },
     "desc": {
-      "ja": "ノード・エッジ・中心性などネットワーク分析の基礎を理解し、人物・組織・文献間の関係を可視化できるようになります。",
-      "de": "Sie verstehen die Grundbegriffe der Netzwerkanalyse (Knoten, Kanten, Zentralität) und können Beziehungen zwischen Personen, Institutionen oder Texten visualisieren.",
-      "en": "You'll understand core network-analysis concepts (nodes, edges, centrality) and be able to visualize relationships between people, institutions, or texts."
+      "ja": "古い地図を現代の地図に重ねてみたいけれど、縮尺や図法が違うので単純に重ねるだけでは無理があります。ジオレファレンスはそうした古地図を現代の地図に重ねることができるようにするための方法です。ここではQGISを使ってどのどうにジオレファレンスをするのか実際に試してみます。",
+      "de": "Altstädte auf moderne Karten zu überlagern, wäre schön, aber da Skala und Kartenprojektion unterschiedlich sind, ist es nicht möglich, sie einfach nur übereinanderzulegen. Georeferenzierung ist eine Methode, um alte Karten so auf moderne Karten abzubilden, dass sie übereinandergelegt werden können. Hier wird gezeigt, wie man mit QGIS tatsächlich georeferenziert.",
+      "en": "Overlaying old towns on modern maps would be nice, but since the scale and map projection are different, it is not possible to simply overlap them. Georeferencing is a method for depicting old maps on modern maps in such a way that they can be overlaid. Here it is shown how georeferencing is actually done with QGIS."
     }
   },
   {
@@ -419,7 +504,92 @@ const MENU_ITEMS = [
     }
   },
   {
-    "id": "dessert-ai",
+    "id": "dessert-data-socialmedia",
+    "category": "dessert",
+    "tags": [
+      "programming"
+    ],
+    "title": {
+      "ja": "ソーシャルメディアからデータを取り出す",
+      "de": "Daten aus sozialen Medien mit Python extrahieren",
+      "en": "Extracting data from social media"
+    },
+    "desc": {
+      "ja": "ソーシャルメディアの「BlueSky」からPythonを使ってデータを取得する方法を学びます。",
+      "de": "Wir lernen, wie man Daten mit Python aus der Social Media-Plattform \"BlueSky\" extrahiert.",
+      "en": "You'll learn how to retrieve data from \"BlueSky\" social media using Python."
+    }
+  },
+  {
+    "id": "dessert-network",
+    "category": "dessert",
+    "tags": [
+      "text-analysis"
+    ],
+    "title": {
+      "ja": "ネットワーク分析：関係の近さ・遠さを計算する",
+      "de": "Netzwerkanalyse: Nähe & Distanz berechnen",
+      "en": "Network analysis: measuring closeness"
+    },
+    "desc": {
+      "ja": "ノード・エッジ・中心性などネットワーク分析の基礎を理解し、人物・組織・文献間の関係を可視化できるようになります。",
+      "de": "Sie verstehen die Grundbegriffe der Netzwerkanalyse (Knoten, Kanten, Zentralität) und können Beziehungen zwischen Personen, Institutionen oder Texten visualisieren.",
+      "en": "You'll understand core network-analysis concepts (nodes, edges, centrality) and be able to visualize relationships between people, institutions, or texts."
+    }
+  },
+  {
+    "id": "dessert-ai-basics1",
+    "category": "dessert",
+    "tags": [
+      "ai"
+    ],
+    "title": {
+      "ja": "AIに関する基礎情報1",
+      "de": "Künstliche Intelligenz - Grundlagen 1",
+      "en": "Artificial Intelligence - Basics 1"
+    },
+    "desc": {
+      "ja": "生成AIを含むAIの基本的な情報や、AIを利用する際の注意点・倫理的な問題点を学びます。",
+      "de": "Sie lernen die Grundlagen von KI, einschliesslich der damit verbundenen Probleme und ethischen Aspekte, die bei ihrer Anwendung beachtet werden sollten.",
+      "en": "You'll learn the fundamentals of AI, including its challenges and the ethical considerations for responsible use."
+    }
+  },
+  {
+    "id": "dessert-ai-basics2",
+    "category": "dessert",
+    "tags": [
+      "ai"
+    ],
+    "title": {
+      "ja": "AIに関する基礎情報2",
+      "de": "Künstliche Intelligenz - Grundlagen 2",
+      "en": "Artificial Intelligence - Basics 2"
+    },
+    "desc": {
+      "ja": "生成AIを使ったチャットボットを使いながら、プロンプトの基礎、コンテキスト・ウィンドウなどの生成AIを使う上で重要な概念を学びます。",
+      "de": "Sie lernen die Grundlagen von Chatbots mit GenAI, einschliesslich wichtiger Konzepte wie Prompt und Context Window.",
+      "en": "You'll learn the fundamentals of chatbots using GenAI, including key concepts like prompts and context windows."
+    }
+  },
+  {
+    "id": "dessert-ai-tools-ja",
+    "category": "dessert",
+    "tags": [
+      "ai"
+    ],
+    "title": {
+      "ja": "日本で開発されたAIツール",
+      "de": "Japanische KI-Tools",
+      "en": "Japanese AI tools"
+    },
+    "desc": {
+      "ja": "Humanitext AozoraやバウッダAI、AI篆字認識など日本で開発されたAIツールを紹介します。",
+      "de": "Sie erhalten einen Überblick über die in Japan entwickelten KI-Tools wie Humanitext Aozora und Baudha AI sowie eine KI-gestützte Erkennung von Siegeln.",
+      "en": "You'll get an overview of the AI tools developed in Japan, such as Humanitext Aozora and Baudha AI, as well as AI seal recognition."
+    }
+  },
+  {
+    "id": "dessert-ai-research",
     "category": "dessert",
     "tags": [
       "ai"

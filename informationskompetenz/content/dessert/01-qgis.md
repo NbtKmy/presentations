@@ -1,4 +1,4 @@
-tags: gis-mapping, e-resouces
+tags: gis-mapping, e-resources
 
 ## ja
 QGISで統計資料を地図化する
