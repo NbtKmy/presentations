@@ -17,5 +17,7 @@ Link to Presentation: https://nbtkmy.github.io/presentations/dls_workshop/worksh
 ## Intro for East Asian Art History 2024
 Link to presentation: https://nbtkmy.github.io/presentations/for_Khist/presentation_forKhist.html
 
+## Informationskompetenz für die Japanologie (Menu prototype)
+Link: https://nbtkmy.github.io/presentations/informationskompetenz/
 
 
